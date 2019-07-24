@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ==================== Power Fist ========================== -->
+  <DamageDef ParentName="BluntBase">
+    <defName>BluntKnockback</defName>
+    <workerClass>CyberneticWarfare.DamageWorker_BluntKnockback</workerClass>
+    <modExtensions>
+      <li Class="CyberneticWarfare.DamageDefExtension">
+        <knockbackDistancePerDamageDealt>0.25</knockbackDistancePerDamageDealt>
+        <scaleKnockbackWithBodySize>true</scaleKnockbackWithBodySize>
+        <hitBuildingStunDurationFactor>2</hitBuildingStunDurationFactor>
+        <stunDuration>95</stunDuration>
+      </li>
+    </modExtensions>
+  </DamageDef>
+
+</Defs>

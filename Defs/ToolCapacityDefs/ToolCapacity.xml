@@ -6,4 +6,8 @@
     <defName>CW_Shock</defName>
   </ToolCapacityDef>
 
+  <ToolCapacityDef>
+    <defName>BluntKnockback</defName>
+  </ToolCapacityDef>
+
 </Defs>
