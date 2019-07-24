@@ -43,6 +43,92 @@
     </thingCategories>
   </ThingDef>
 
+  <!-- Power Fist -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <thingClass>CyberneticWarfare.PawnLauncher</thingClass> <!-- Edit -->
+    <defName>CW_PowerFist</defName>
+    <label>power fist</label>
+    <description>A massive mechanized glove wired to the forearm for hydraulic power bursts and punches. It is vicious in combat, and its powerful mini-servos can crush a skull like a natural hand crushes an egg. This prototype extension was created in a hidden hightech laboratorium and fabricated by their very own underground facilities. Though it was developed in imperial times, their independet state was preserved until now.\n\nStrengthens the soldiers ability to open doors and to create those passages, where they need to be. Grants pushback and pummel mechanics.\n\n&lt;i&gt;Only in death does duty end. Even a man who has nothing can still offer his life. As the Emperor protects, so must we. Peace is not in my vocabulary.&lt;/i&gt;</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/PowerFist</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <generateCommonality>0.05</generateCommonality>
+    <equippedAngleOffset>0</equippedAngleOffset>
+    <soundInteract>CW_BatteryRecharge</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>CW_CyberneticWarfare</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <costList>
+      <Plasteel>75</Plasteel>
+      <Gold>25</Gold>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>3</EquipDelay>
+      <WorkToMake>57500</WorkToMake>
+      <Mass>4.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+			<MiningSpeed>0.15</MiningSpeed>
+    	<MiningYield>0.15</MiningYield>
+		</equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tools>
+      <li>
+        <label>Pummel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>0.25</cooldownTime>
+      </li>
+      <li>
+        <label>Crush</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>0.25</cooldownTime>
+      </li>
+      <li>
+        <label>Pushback</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
   <!-- Energy Claws -->
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>CW_EnergyClaw</defName>
@@ -83,7 +169,7 @@
       <Beauty>-2</Beauty>
       <EquipDelay>3</EquipDelay>
       <WorkToMake>66500</WorkToMake>
-      <Mass>2.5</Mass>
+      <Mass>4.75</Mass>
     </statBases>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
@@ -336,7 +422,7 @@
     <graphicData>
       <texPath>Things/WeaponMelee/GunBlade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.4</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
     <generateCommonality>0.05</generateCommonality>
