@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Cybernetic Warfare</name>
+	<author>Trunken, Luizi</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<description>
+Unfold the power of superior weapon systems.
+
+This mod contains a wide spectrum of different weapon types with fantastic effects and eyecandies. New lategame content with beautiful artwork, customized soundeffects and well written lore complementing atmosphere and flair.
+
+&lt;b&gt;&lt;color=#ff4800&gt;Weapon Systems&lt;/color&gt;&lt;/b&gt;
+ - Energy Claws
+ - Energy Sword
+ - Chain Sword (AP)
+ - Gun Blade (Mix)
+ - Shocker (Knuckles)
+ - Disruptor (Knockout)
+ - Napalm Blaster (Flamethrower)
+ - Havoc Launcher (Multi Burst Grenade Launcher, 1x1)
+ - Dual Eraser (2x Machine Pistols)
+ - Riot Breaker (Chain Shotgun)
+ - Ballistic Shredder (SMG)
+ - Ballistic Combat Gun (AK)
+ - Ballistic Enforcer (AR)
+ - Plasma Gun (Burn)
+ - Recon Bolter (Laser)
+ - Accelerator (Hybrid)
+ - Coil Gun (Charged)
+
+&lt;b&gt;Content&lt;/b&gt;
+ - Several ballistic power houses for urban fights and ground control
+ - Dual wield machine pistols for the trigger happy (Full compatible)
+ - Knuckles with stun, knockouts and electrification
+ - Bioligical Weapons
+ - Gauss and Firemodes for distance shots
+ - Claws for cleaving multiple targets
+ - Sword collection
+
+Shoot with high calibre cartridges or explosive shells. Take out important single targets with even more power and range. Toast your enemies with animated flames or bomb them back to the stone age with a havoc of toxicity. Blast them away with your plasma or particle mixtures at atomic-molecular level. Or just bring your jail under control with your new maximum security equipment. Dangerous suspects will think twice.
+
+&lt;b&gt;&lt;color=#ffa800&gt;Special Features&lt;/color&gt;&lt;/b&gt;
+ - Cleave (Requires Jecstools)
+ - Napalm
+ - Plasma
+ - Laser
+ - Bio
+ - Orbs
+ - Electro
+ - Ferromagnetic
+ - Explosives
+ - Multi Shots
+ - Rapid Fire
+ - Fire Modi
+ - Ammunition Changer
+
+&lt;b&gt;&lt;color=#18ddd1&gt;Requirements&lt;/color&gt;&lt;/b&gt;
+ - Skill: 9-16 Crafting
+ - Technology Level: Industrial / Spacer / Ultra
+ - Research: Ballistics / Cybernetic Warfare / Framework Weaponry
+
+&lt;b&gt;&lt;color=#18c8dd&gt;Compatibility &amp; Loadorder&lt;/color&gt;&lt;/b&gt;
+ - JecsTools
+ - Cybernetic Organism and Neural Network (CONN)
+ - Vanilla Weapons Expanded (Upcoming)
+ - Vanilla Apparel Expanded (Upcoming)
+ - Vanilla Armors Expanded (Upcoming)
+ - Android Tiers Arsenal (Upcoming)
+ - Cybernetic Warfare - load it here -
+ - Expanded Prosthetics and Organ Engineering (EPOE)
+
+Auto Patching: This mod has no dependencies and will work with a lot of components, if found. Just load it late, lean back and watch the magic.
+
+&lt;b&gt;Credits&lt;/b&gt;
+GFX Weaponry * by Luizi &amp; Oskar Potocki
+Engineering * by Ogliss &amp; XeoNovaDan
+Support * Mehni &amp; Evaine
+Japanese Translation * by Proxyer
+Brother in Arms * Kikohi
+Harmony * Pardeike
+JecsTools * Jecrell
+
+Achieve the full control over your weapon systems. &lt;i&gt;Become the platform.&lt;/i&gt;
+	</description>
+</ModMetaData>
