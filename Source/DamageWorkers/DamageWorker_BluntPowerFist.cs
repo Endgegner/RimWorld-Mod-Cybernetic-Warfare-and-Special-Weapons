@@ -12,32 +12,47 @@ namespace CyberneticWarfare
         {
             base.ApplySpecialEffectsToPart(pawn, totalDamage, dinfo, result);
 
-            var map = pawn.Map;
+            var map = pawn.MapHeld;
 
             // Determine knockback distance and direction
             var damageDefExtension = dinfo.Def.GetModExtension<DamageDefExtension>() ?? DamageDefExtension.defaultValues;
-            int knockbackDistance = GenMath.RoundRandom(totalDamage * damageDefExtension.knockbackDistancePerDamageDealt * (damageDefExtension.scaleKnockbackWithBodySize ? pawn.BodySize : 1));
-            var knockbackDirection = CyberneticWarfareUtility.IntVec3FromDirection8Way(CyberneticWarfareUtility.Direction8WayFromAngle((pawn.Position - dinfo.Instigator.Position).AngleFlat));
+            int knockbackDistance = GenMath.RoundRandom(totalDamage * damageDefExtension.knockbackDistancePerDamageDealt * (damageDefExtension.scaleKnockbackWithBodySize ? 1 / pawn.BodySize : 1));
+            var knockbackDirection = CyberneticWarfareUtility.IntVec3FromDirection8Way(CyberneticWarfareUtility.Direction8WayFromAngle((pawn.PositionHeld - dinfo.Instigator.PositionHeld).AngleFlat));
 
-            float stunDuration = damageDefExtension.stunDuration;
-
-            // Do knockback
-            for (int i = 0; i < knockbackDistance; i++)
+            if (knockbackDistance > 0)
             {
-                var newPosition = pawn.Position + knockbackDirection;
-                // Position out of bounds
-                if (!newPosition.InBounds(map))
-                    break;
+                float stunDuration = damageDefExtension.stunDuration;
 
-                // Check if the pawn hits an impassable cell
-                if (newPosition.Impassable(map))
+                // Do knockback
+                for (int i = 0; i < knockbackDistance; i++)
                 {
-                    stunDuration *= damageDefExtension.hitBuildingStunDurationFactor;
-                    break;
+                    var newPosition = pawn.PositionHeld + knockbackDirection;
+
+                    // Position out of bounds
+                    if (!newPosition.InBounds(map))
+                        break;
+
+                    // Check if the pawn hits an impassable cell
+                    if (newPosition.Impassable(map))
+                    {
+                        stunDuration *= damageDefExtension.hitBuildingStunDurationFactor;
+                        break;
+                    }
+
+                    // Apply knockback
+                    if (pawn.ParentHolder is Corpse corpse)
+                        corpse.Position += knockbackDirection;
+                    pawn.Position += knockbackDirection;
                 }
+
+                if (!pawn.Dead)
+                    pawn.Notify_Teleported(resetTweenedPos: false);
+
+                if (stunDuration > 0 && pawn.stances != null)
+                    pawn.stances.stunner.StunFor(GenMath.RoundRandom(stunDuration), dinfo.Instigator);
             }
 
-            pawn.stances.stunner.StunFor(GenMath.RoundRandom(stunDuration), dinfo.Instigator);
+            
         }
 
     }

@@ -18,9 +18,12 @@ namespace CyberneticWarfare
             static void Postfix(DamageInfo dinfo, Pawn pawn)
             {
                 // Apply stun
-                var damageDefExtension = dinfo.Def.GetModExtension<DamageDefExtension>() ?? DamageDefExtension.defaultValues;
-                if (damageDefExtension.stunDuration > 0)
-                    pawn.stances.stunner.StunFor(damageDefExtension.stunDuration, dinfo.Instigator);
+                if (pawn.stances != null)
+                {
+                    var damageDefExtension = dinfo.Def.GetModExtension<DamageDefExtension>() ?? DamageDefExtension.defaultValues;
+                    if (damageDefExtension.stunDuration > 0)
+                        pawn.stances.stunner.StunFor(damageDefExtension.stunDuration, dinfo.Instigator);
+                }
             }
 
         }
