@@ -425,7 +425,7 @@
     <graphicData>
       <texPath>Things/WeaponRanged/DoubleDualErasers</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.4</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <soundInteract>Interact_SMG</soundInteract>
     <generateCommonality>0.05</generateCommonality>
