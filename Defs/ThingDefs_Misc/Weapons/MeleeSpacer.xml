@@ -83,7 +83,7 @@
       <Beauty>-2</Beauty>
       <EquipDelay>3</EquipDelay>
       <WorkToMake>57500</WorkToMake>
-      <Mass>4.5</Mass>
+      <Mass>5.5</Mass>
     </statBases>
     <equippedStatOffsets>
 			<MiningSpeed>0.15</MiningSpeed>
