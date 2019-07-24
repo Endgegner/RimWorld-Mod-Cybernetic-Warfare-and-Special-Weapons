@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\NoCamShake\obj\Debug\NoCamShake.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\NoCamShake\obj\Debug\NoCamShake.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\NoCamShake\bin\Debug\NoCamShake.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\NoCamShake\bin\Debug\NoCamShake.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\NoCamShake\obj\Debug\NoCamShake.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMechArmoury\Source\NoCamShake\obj\Debug\NoCamShake.pdb

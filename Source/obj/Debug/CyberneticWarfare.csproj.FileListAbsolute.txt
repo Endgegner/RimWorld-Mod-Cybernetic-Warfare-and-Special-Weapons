@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Cyborg Weaponry\Source\CyberneticWarfare\obj\Debug\CyberneticWarfare.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Cyborg Weaponry\Source\CyberneticWarfare\obj\Debug\CyberneticWarfare.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Cyborg Weaponry\Assemblies\CyberneticWarfare.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Cyborg Weaponry\Source\CyberneticWarfare\obj\Debug\CyberneticWarfare.dll
