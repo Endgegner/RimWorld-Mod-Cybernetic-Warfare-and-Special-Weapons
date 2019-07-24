@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Energy Fist -->
+
+  <ANN_InstallShocker.label>ショッカー 移植</ANN_InstallShocker.label>
+  <ANN_InstallShocker.description>ショッカーを移植します。</ANN_InstallShocker.description>
+  <ANN_InstallShocker.jobString>ショッカーを移植中</ANN_InstallShocker.jobString>
+
+</LanguageData>

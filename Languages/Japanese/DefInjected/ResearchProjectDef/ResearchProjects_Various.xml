@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cyborg Ballistik -->
+
+  <CW_Ballistik.label>弾道学</CW_Ballistik.label>
+  <CW_Ballistik.description>優秀な武器システムの能力を開発します。</CW_Ballistik.description>
+
+
+  <!-- Shadowrunner Cyberpunks -->
+
+  <CW_CyberneticWarfare.label>サイボーク戦闘</CW_CyberneticWarfare.label>
+  <CW_CyberneticWarfare.description>武器システムを完全に制御できるようにします。肉体の武器プラットフォーム化を研究します。</CW_CyberneticWarfare.description>
+
+
+  <!-- Universal Soldiers Space Marines -->
+
+  <CW_FrameworkWeaponry.label>武器情報接続</CW_FrameworkWeaponry.label>
+  <CW_FrameworkWeaponry.description>専用の武器を通してデータバンクへの接続(フレームワーク)システムを提供します。</CW_FrameworkWeaponry.description>
+
+</LanguageData>

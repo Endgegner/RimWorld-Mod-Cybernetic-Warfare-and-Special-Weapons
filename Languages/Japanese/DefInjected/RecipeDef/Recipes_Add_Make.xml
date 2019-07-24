@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_ANN_Shocker.label>SW ショッカーを作る</Make_ANN_Shocker.label>
+  <Make_ANN_Shocker.description>SW ショッカーを作る。</Make_ANN_Shocker.description>
+  <Make_ANN_Shocker.jobString>SW ショッカーを製作中</Make_ANN_Shocker.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, FabricationBench -->
+
+  <Make_CW_EnergyClaw.label>SW エネルギークロウを作る</Make_CW_EnergyClaw.label>
+  <Make_CW_EnergyClaw.description>SW エネルギークロウを作る。</Make_CW_EnergyClaw.description>
+  <Make_CW_EnergyClaw.jobString>SW エネルギークロウを製作中</Make_CW_EnergyClaw.jobString>
+
+  <Make_CW_EnergySword.label>SW エネルギーソードを作る</Make_CW_EnergySword.label>
+  <Make_CW_EnergySword.description>SW エネルギーソードを作る。</Make_CW_EnergySword.description>
+  <Make_CW_EnergySword.jobString>SW エネルギーソードを製作中</Make_CW_EnergySword.jobString>
+
+  <Make_CW_ChainSword.label>SW チェインソードを作る</Make_CW_ChainSword.label>
+  <Make_CW_ChainSword.description>SW チェインソードを作る。</Make_CW_ChainSword.description>
+  <Make_CW_ChainSword.jobString>SW チェインソードを製作中</Make_CW_ChainSword.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, TableMachining -->
+
+  <Make_CW_GunBlade.label>SW ガンブレードを作る</Make_CW_GunBlade.label>
+  <Make_CW_GunBlade.description>SW ガンブレードを作る。</Make_CW_GunBlade.description>
+  <Make_CW_GunBlade.jobString>SW ガンブレードを製作中</Make_CW_GunBlade.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench -->
+
+  <Make_CW_RiotBreaker.label>SW ライオットブレイカーを作る</Make_CW_RiotBreaker.label>
+  <Make_CW_RiotBreaker.description>SW ライオットブレイカーを作る。</Make_CW_RiotBreaker.description>
+  <Make_CW_RiotBreaker.jobString>SW ライオットブレイカーを製作中</Make_CW_RiotBreaker.jobString>
+
+  <Make_CW_BallisticShredder.label>SW BSシュレッダーを作る</Make_CW_BallisticShredder.label>
+  <Make_CW_BallisticShredder.description>SW BSシュレッダーを作る。</Make_CW_BallisticShredder.description>
+  <Make_CW_BallisticShredder.jobString>SW BSシュレッダーを製作中</Make_CW_BallisticShredder.jobString>
+
+  <Make_CW_BallisticCombatGun.label>SW BSコンバットガンを作る</Make_CW_BallisticCombatGun.label>
+  <Make_CW_BallisticCombatGun.description>SW BSコンバットガンを作る。</Make_CW_BallisticCombatGun.description>
+  <Make_CW_BallisticCombatGun.jobString>SW BSコンバットガンを製作中</Make_CW_BallisticCombatGun.jobString>
+
+  <Make_CW_BallisticEnforcer.label>SW BSエンフォーサーを作る</Make_CW_BallisticEnforcer.label>
+  <Make_CW_BallisticEnforcer.description>SW BSエンフォーサーを作る。</Make_CW_BallisticEnforcer.description>
+  <Make_CW_BallisticEnforcer.jobString>SW BSエンフォーサーを製作中</Make_CW_BallisticEnforcer.jobString>
+
+  <Make_CW_Disruptor.label>SW ディスラプターを作る</Make_CW_Disruptor.label>
+  <Make_CW_Disruptor.description>SW ディスラプターを作る。</Make_CW_Disruptor.description>
+  <Make_CW_Disruptor.jobString>SW ディスラプターを製作中</Make_CW_Disruptor.jobString>
+
+  <Make_CW_NapalmBlaster.label>SW ナパームブラスターを作る</Make_CW_NapalmBlaster.label>
+  <Make_CW_NapalmBlaster.description>SW ナパームブラスターを作る。</Make_CW_NapalmBlaster.description>
+  <Make_CW_NapalmBlaster.jobString>SW ナパームブラスターを製作中</Make_CW_NapalmBlaster.jobString>
+
+  <Make_CW_DualEraser.label>SW デュアルイレイザーを作る</Make_CW_DualEraser.label>
+  <Make_CW_DualEraser.description>SW デュアルイレイザーを作る。</Make_CW_DualEraser.description>
+  <Make_CW_DualEraser.jobString>SW デュアルイレイザーを製作中</Make_CW_DualEraser.jobString>
+
+  <Make_CW_Accelerator.label>SW アクセレーターを作る</Make_CW_Accelerator.label>
+  <Make_CW_Accelerator.description>SW アクセレーターを作る。</Make_CW_Accelerator.description>
+  <Make_CW_Accelerator.jobString>SW アクセレーターを製作中</Make_CW_Accelerator.jobString>
+
+  <Make_CW_PlasmaGun.label>SW プラズマガンを作る</Make_CW_PlasmaGun.label>
+  <Make_CW_PlasmaGun.description>SW プラズマガンを作る。</Make_CW_PlasmaGun.description>
+  <Make_CW_PlasmaGun.jobString>SW プラズマガンを製作中</Make_CW_PlasmaGun.jobString>
+
+  <Make_CW_HavocLauncher.label>SW ハボックランチャーを作る</Make_CW_HavocLauncher.label>
+  <Make_CW_HavocLauncher.description>SW ハボックランチャーを作る。</Make_CW_HavocLauncher.description>
+  <Make_CW_HavocLauncher.jobString>SW ハボックランチャーを製作中</Make_CW_HavocLauncher.jobString>
+
+  <Make_CW_CoilGun.label>SW コイルガンを作る</Make_CW_CoilGun.label>
+  <Make_CW_CoilGun.description>SW コイルガンを作る。</Make_CW_CoilGun.description>
+  <Make_CW_CoilGun.jobString>SW コイルガンを製作中</Make_CW_CoilGun.jobString>
+
+  <Make_CW_ReconBolter.label>SW リコンボルターを作る</Make_CW_ReconBolter.label>
+  <Make_CW_ReconBolter.description>SW リコンボルターを作る。</Make_CW_ReconBolter.description>
+  <Make_CW_ReconBolter.jobString>SW リコンボルターを製作中</Make_CW_ReconBolter.jobString>
+
+</LanguageData>

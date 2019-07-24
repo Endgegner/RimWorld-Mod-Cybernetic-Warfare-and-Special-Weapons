@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Disruptor -->
+
+  <Bullet_DisruptorOrb.label>電荷オーブ弾</Bullet_DisruptorOrb.label>
+  <Bullet_UltraEMP.label>超EMP弾</Bullet_UltraEMP.label>
+  <Bullet_StunningForce.label>強制スタン弾</Bullet_StunningForce.label>
+  <Bullet_NonLethalCharge.label>非殺傷チャージ弾</Bullet_NonLethalCharge.label>
+
+  <CW_Disruptor.label>SW ディスラプター</CW_Disruptor.label>
+  <CW_Disruptor.description>単一の目標を破壊するための電荷射撃発生器を備えた強力な拳銃です。この調整可能なパワーシステムは、もともと非殺傷攻撃用に設計されたもので、1発の命中であらゆる人型ロボットを動作停止します。囚人惑星の標準的な刑務官装備です。\n\nこの改良版には4種類の異なった射撃モードがあります。</CW_Disruptor.description>
+  <CW_Disruptor.tools.grip.label>グリップ</CW_Disruptor.tools.grip.label>
+  <CW_Disruptor.tools.barrel.label>バレル</CW_Disruptor.tools.barrel.label>
+  <CW_Disruptor.verbs.Electron_Orb.label>電荷オーブ</CW_Disruptor.verbs.Electron_Orb.label>
+  <CW_Disruptor.verbs.Ultra_EMP.label>超EMPモード</CW_Disruptor.verbs.Ultra_EMP.label>
+  <CW_Disruptor.verbs.Stunning_Force.label>強制スタン</CW_Disruptor.verbs.Stunning_Force.label>
+  <CW_Disruptor.verbs.Non_Lethal_Charge.label>非殺傷モード</CW_Disruptor.verbs.Non_Lethal_Charge.label>
+
+
+  <!-- Napalm Blaster -->
+
+  <Bullet_NapalmFlame.label>ナパーム弾</Bullet_NapalmFlame.label>
+  <Bullet_NapalmBlast.label>濃縮ナパーム弾</Bullet_NapalmBlast.label>
+  <Bullet_NapalmWave.label>濃縮ナパーム弾</Bullet_NapalmWave.label>
+
+  <CW_NapalmBlaster.label>SW ナパームブラスター</CW_NapalmBlaster.label>
+  <CW_NapalmBlaster.description>ナパーム用のタンクが付いた強力な火炎放射器です。この機械式の焼却装置は、長距離の目標に制御可能なナパームの炎を投射するために開発されました。\n\n投射する熱レベルは、内蔵された火炎制御装置で簡単に調整可能です。</CW_NapalmBlaster.description>
+  <CW_NapalmBlaster.tools.stock.label>ストック</CW_NapalmBlaster.tools.stock.label>
+  <CW_NapalmBlaster.tools.barrel.label>バレル</CW_NapalmBlaster.tools.barrel.label>
+  <CW_NapalmBlaster.verbs.Fahrenheit.label>火炎</CW_NapalmBlaster.verbs.Fahrenheit.label>
+  <CW_NapalmBlaster.verbs.Infernal.label>灼熱地獄</CW_NapalmBlaster.verbs.Infernal.label>
+  <CW_NapalmBlaster.verbs.Hellfire.label>ヘルファイア</CW_NapalmBlaster.verbs.Hellfire.label>
+
+
+  <!-- Dual Eraser -->
+
+  <Bullet_DualEraser.label>ツインバレッド</Bullet_DualEraser.label>
+
+  <CW_DualEraser.label>SW デュアルイレイザー</CW_DualEraser.label>
+  <CW_DualEraser.description>巨大なマガジンが付いた2丁のデュアル式の小型イレイザーが付いた、2丁の早打ち用の拳銃です。マルチショットのような大威力の火力と引き換えに、命中精度の低下という代償を支払っています。狭い路地の多い、犯罪多発都市などで使われています。サイボーグに持たせて、近接目標に対して高速再装填を可能にします。\n\n腰に吊り下げれるように製作されました。</CW_DualEraser.description>
+  <CW_DualEraser.tools.grip.label>グリップ</CW_DualEraser.tools.grip.label>
+  <CW_DualEraser.tools.barrel.label>バレル</CW_DualEraser.tools.barrel.label>
+  <CW_DualEraser.verbs.Multi_Shot.label>マルチモード</CW_DualEraser.verbs.Multi_Shot.label>
+  <CW_DualEraser.verbs.Rapid_Fire.label>ラピッドモード</CW_DualEraser.verbs.Rapid_Fire.label>
+
+
+  <!-- Accelerator -->
+
+  <Bullet_Accelerator.label>特異点弾</Bullet_Accelerator.label>
+
+  <CW_Accelerator.label>SW アクセレーター</CW_Accelerator.label>
+  <CW_Accelerator.description>強力なサイボーグ兵器システムです。この風変わりな銃の内部コイルには、正確なタイミングでオンとオフが切り替わり、複合素材の発射体は、電磁力バレルに沿って超高速に加速されます。モード切替時に弾薬の種類も切替えます。</CW_Accelerator.description>
+  <CW_Accelerator.tools.stock.label>ストック</CW_Accelerator.tools.stock.label>
+  <CW_Accelerator.tools.barrel.label>バレル</CW_Accelerator.tools.barrel.label>
+  <CW_Accelerator.verbs.Singularity.label>特異点</CW_Accelerator.verbs.Singularity.label>
+  <CW_Accelerator.verbs.Charged.label>チャージモード</CW_Accelerator.verbs.Charged.label>
+  <CW_Accelerator.verbs.Double_Time.label>ダブルモード</CW_Accelerator.verbs.Double_Time.label>
+
+</LanguageData>

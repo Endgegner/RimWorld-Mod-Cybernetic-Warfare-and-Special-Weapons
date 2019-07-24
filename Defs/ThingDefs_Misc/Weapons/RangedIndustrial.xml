@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Riot Breaker -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>CW_RiotBreaker</defName>
+    <label>riot breaker</label>
+    <description>A charge rifle modified to be a magazine-fed fully automatic shotgun with recoil absorber. Packs a huge magazine and is extraordinarily powerful due to burst fire on short distance. Produced for maximum security Jailplanets with very dangerous subjects.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/RiotBreaker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <generateCommonality>0.1</generateCommonality>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>CW_Ballistik</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>3</EquipDelay>
+      <WorkToMake>32500</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.44</AccuracyLong>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>25</Steel>
+      <Plasteel>50</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Shotgun</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>19.9</range>
+        <burstShotCount>9</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Ballistic Shredder -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_BallisticShredder</defName>
+    <label>heavy shredder</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>CW_BallisticShredder</defName>
+    <label>ballistic shredder</label>
+  	<description>A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well. Comes with a larger magazine and lesser outbreaks due to an implemented stabilizer.</description>
+  	<graphicData>
+  		<texPath>Things/WeaponRanged/BallisticShredder</texPath>
+  	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+  	</graphicData>
+    <generateCommonality>0.1</generateCommonality>
+  	<soundInteract>Interact_SMG</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>CW_Ballistik</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-1</Beauty>
+      <EquipDelay>3</EquipDelay>
+      <WorkToMake>32500</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.86</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_BallisticShredder</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>29.9</range>
+        <burstShotCount>20</burstShotCount>
+        <soundCast>CW_BallisticBurst</soundCast> <!-- Shot_HeavySMG -->
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Ballistic Combat Gun -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_BallisticCombatGun</defName>
+    <label>assault bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>17</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>CW_BallisticCombatGun</defName>
+    <label>ballistic combat gun</label>
+    <description>A general-purpose gas-operated assault rifle for field or urban combat. Designed for large calibre cartridges. More power, faster handling, better accuracy.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/BallisticCombatGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <generateCommonality>0.1</generateCommonality>
+  	<soundInteract>Interact_Rifle</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>CW_Ballistik</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-1</Beauty>
+      <EquipDelay>3</EquipDelay>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_BallisticCombatGun</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>34.9</range>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Ballistic Enforcer -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_BallisticEnforcer</defName>
+    <label>enforcer bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>CW_BallisticEnforcer</defName>
+    <label>ballistic enforcer</label>
+    <description>An energy assisted assault rifle for field operations. This version is integrated with a computing system to increase its firepower and accuracy. The energy infused projectiles are fired in small bursts to prevent overheating.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/BallisticEnforcer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <generateCommonality>0.1</generateCommonality>
+  	<soundInteract>Interact_Rifle</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>CW_Ballistik</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-1</Beauty>
+      <EquipDelay>3</EquipDelay>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.62</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.89</AccuracyMedium>
+      <AccuracyLong>0.91</AccuracyLong>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_BallisticCombatGun</defaultProjectile>
+        <warmupTime>0.7</warmupTime>
+        <range>52.4</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_BoltActionRifle</soundCast> <!-- CW_GunFire Shot_AssaultRifle -->
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+  
+</Defs>

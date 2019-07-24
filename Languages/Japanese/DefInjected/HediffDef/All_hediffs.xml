@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Electro -->
+
+  <Trunken_hediff_Shocker.label>ショッカー</Trunken_hediff_Shocker.label>
+  <Trunken_hediff_Shocker.comps.HediffComp_VerbGiver.tools.Uppercut.label>アッパーカット</Trunken_hediff_Shocker.comps.HediffComp_VerbGiver.tools.Uppercut.label>
+  <Trunken_hediff_Shocker.comps.HediffComp_VerbGiver.tools.Shocker.label>電撃</Trunken_hediff_Shocker.comps.HediffComp_VerbGiver.tools.Shocker.label>
+  <Trunken_hediff_Shocker.comps.HediffComp_VerbGiver.tools.Punch.label>強打</Trunken_hediff_Shocker.comps.HediffComp_VerbGiver.tools.Punch.label>
+  <Trunken_hediff_Shocker.labelNoun>ショッカー</Trunken_hediff_Shocker.labelNoun>
+
+  <Trunken_hediff_KnockOut.label>ノックアウト</Trunken_hediff_KnockOut.label>
+  <Trunken_hediff_KnockOut.stages.minor.label>軽症</Trunken_hediff_KnockOut.stages.minor.label>
+  <Trunken_hediff_KnockOut.stages.dizzy.label>目まい</Trunken_hediff_KnockOut.stages.dizzy.label>
+  <Trunken_hediff_KnockOut.stages.dazed.label>呆然</Trunken_hediff_KnockOut.stages.dazed.label>
+  <Trunken_hediff_KnockOut.stages.stars.label>お星さま</Trunken_hediff_KnockOut.stages.stars.label>
+  <Trunken_hediff_KnockOut.stages.unconsciousness.label>意識喪失</Trunken_hediff_KnockOut.stages.unconsciousness.label>
+  <Trunken_hediff_KnockOut.labelNoun>意識喪失</Trunken_hediff_KnockOut.labelNoun>
+
+  <Trunken_hediff_Electrocuted.label>感電</Trunken_hediff_Electrocuted.label>
+  <Trunken_hediff_Electrocuted.labelNoun>感電</Trunken_hediff_Electrocuted.labelNoun>
+
+
+  <!-- Energetic -->
+
+  <Trunken_hediff_PlasmaBurn.label>プラズマ火傷</Trunken_hediff_PlasmaBurn.label>
+  <Trunken_hediff_PlasmaBurn.comps.HediffComp_TendDuration.labelTendedWell>包帯</Trunken_hediff_PlasmaBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <Trunken_hediff_PlasmaBurn.comps.HediffComp_TendDuration.labelTendedWellInner>縫合</Trunken_hediff_PlasmaBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <Trunken_hediff_PlasmaBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>セット</Trunken_hediff_PlasmaBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Trunken_hediff_PlasmaBurn.injuryProps.destroyedLabel>焼け落ちた</Trunken_hediff_PlasmaBurn.injuryProps.destroyedLabel>
+  <Trunken_hediff_PlasmaBurn.injuryProps.destroyedOutLabel>焼け落ちた</Trunken_hediff_PlasmaBurn.injuryProps.destroyedOutLabel>
+  <Trunken_hediff_PlasmaBurn.labelNoun>プラズマ火傷</Trunken_hediff_PlasmaBurn.labelNoun>
+  <Trunken_hediff_PlasmaBurn.labelNounPretty>{1}の{0}</Trunken_hediff_PlasmaBurn.labelNounPretty>
+  <Trunken_hediff_PlasmaBurn.comps.HediffComp_GetsPermanent.permanentLabel>プラズマ火傷跡</Trunken_hediff_PlasmaBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+
+  <Trunken_hediff_LaserShot.label>レーザー創</Trunken_hediff_LaserShot.label>
+  <Trunken_hediff_LaserShot.comps.HediffComp_TendDuration.labelTendedWell>包帯</Trunken_hediff_LaserShot.comps.HediffComp_TendDuration.labelTendedWell>
+  <Trunken_hediff_LaserShot.comps.HediffComp_TendDuration.labelTendedWellInner>縫合</Trunken_hediff_LaserShot.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <Trunken_hediff_LaserShot.comps.HediffComp_TendDuration.labelSolidTendedWell>セット</Trunken_hediff_LaserShot.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <Trunken_hediff_LaserShot.injuryProps.destroyedLabel>蒸発した</Trunken_hediff_LaserShot.injuryProps.destroyedLabel>
+  <Trunken_hediff_LaserShot.injuryProps.destroyedOutLabel>蒸発した</Trunken_hediff_LaserShot.injuryProps.destroyedOutLabel>
+  <Trunken_hediff_LaserShot.labelNoun>レーザー創</Trunken_hediff_LaserShot.labelNoun>
+  <Trunken_hediff_LaserShot.labelNounPretty>{1}の{0}</Trunken_hediff_LaserShot.labelNounPretty>
+  <Trunken_hediff_LaserShot.comps.HediffComp_GetsPermanent.permanentLabel>レーザー創跡</Trunken_hediff_LaserShot.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Trunken_hediff_LaserShot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>レーザー創(永久)</Trunken_hediff_LaserShot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+
+</LanguageData>

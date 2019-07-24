@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Disruptor -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_DisruptorOrb</defName>
+    <label>electron orb</label>
+    <graphicData>
+      <texPath>Things/Projectile/DisruptorOrb</texPath>
+      <graphicClass>Graphic_Flicker</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+	  <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <soundExplode>CW_PowerSpark</soundExplode>
+      <explosionRadius>2.9</explosionRadius>
+      <damageDef>CW_ElectroBurn</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_UltraEMP</defName>
+    <label>ultra EMP</label>
+    <graphicData>
+      <texPath>Things/Projectile/UltraEMP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+	  <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <soundExplode>Explosion_EMP</soundExplode>
+      <explosionRadius>2.4</explosionRadius>
+      <damageDef>EMP</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_StunningForce</defName>
+    <label>stunning force</label>
+    <graphicData>
+      <texPath>Things/Projectile/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+	  <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <soundExplode>CW_Electrocuted</soundExplode> 
+      <explosionRadius>1.5</explosionRadius>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_NonLethalCharge</defName>
+    <label>non lethal charge</label>
+    <graphicData>
+      <texPath>Things/Projectile/NonLethalCharge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+	  <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <soundExplode>CW_ContinousSpark</soundExplode>
+      <explosionRadius>1</explosionRadius>
+      <damageAmountBase>5</damageAmountBase>
+      <damageDef>CW_ElectroCharge</damageDef>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>CW_Disruptor</defName>
+    <label>Disruptor</label>
+    <description>A heavy handgun with an electron orb generator to disrupt single targets. The adjustable power system was originally made for non lethal strikes and knocks out any humanoid on a single hit. Standard overseer equipment on Jailplanets.\n\nThis upgraded version has access to four different fire modes.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Disruptor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <generateCommonality>0.1</generateCommonality>
+    <soundInteract>CW_BatteryRecharge</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>CW_CyberneticWarfare</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>16</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>1450</MarketValue>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-1</Beauty>
+      <EquipDelay>2</EquipDelay>
+      <WorkToMake>32500</WorkToMake>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>25</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>SpacerGun</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Electron Orb</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_DisruptorOrb</defaultProjectile>
+        <warmupTime>3.8</warmupTime>
+        <minRange>1.5</minRange>
+        <range>29.9</range>
+        <forcedMissRadius>0.05</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>CW_Electrification</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Ultra EMP</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_UltraEMP</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <minRange>1.5</minRange>
+        <range>39.9</range>
+        <forcedMissRadius>0.25</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>CW_ElectricPulse</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>11</muzzleFlashScale>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Stunning Force</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_StunningForce</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <minRange>1.5</minRange>
+        <range>49.9</range>
+        <burstShotCount>1</burstShotCount>
+        <forcedMissRadius>0.1</forcedMissRadius>
+        <soundCast>CW_ElectricPulse</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Non Lethal Charge</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_NonLethalCharge</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <minRange>1.5</minRange>
+        <range>49.9</range>
+        <burstShotCount>3</burstShotCount>
+        <forcedMissRadius>0.1</forcedMissRadius>
+        <soundCast>CW_Electrification</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+       </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+      <li Class="CyberneticWarfare.CompProperties_WargearWeaponToggle">
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Napalm Blaster -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_NapalmFlame</defName>
+    <label>sea of flames</label>
+    <graphicData>
+      <texPath>Things/Projectile/NapalmFlame</texPath>
+      <graphicClass>Graphic_Flicker</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <explosionRadius>0.5</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <speed>35</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_NapalmBlast</defName>
+    <label>concentrated napalm</label>
+    <graphicData>
+      <texPath>Things/Projectile/NapalmBlast</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <explosionRadius>1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <speed>45</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_NapalmWave</defName>
+    <label>concentrated napalm</label>
+    <graphicData>
+      <texPath>Things/Projectile/NapalmWave</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <explosionRadius>2</explosionRadius>
+      <preExplosionSpawnChance>0.25</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>CW_NapalmBlaster</defName>
+    <label>napalm blaster</label>
+    <description>A heavy flamethrower with a napalm tank attached to it. This mechanical incendiary device was developed to project a long, controllable stream of liquid fire.\n\nThe heat level can be conveniently adjusted by a builtin pyromancy controller.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/NapalmBlaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <soundInteract>CW_PlasmaBoil</soundInteract>
+    <generateCommonality>0.1</generateCommonality>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>4</EquipDelay>
+      <WorkToMake>37500</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.35</AccuracyShort>
+      <AccuracyMedium>0.20</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>CW_CyberneticWarfare</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>SpacerGun</li>
+    </weaponTags>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Fahrenheit</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <pelletCount>3</pelletCount>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_NapalmFlame</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>14.9</range>
+        <minRange>1.5</minRange>
+        <forcedMissRadius>1.8</forcedMissRadius>
+        <burstShotCount>28</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundCast>CW_NapalmFlame</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Infernal</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_NapalmBlast</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>17.9</range>
+        <minRange>1.5</minRange>
+        <forcedMissRadius>0.3</forcedMissRadius>
+        <burstShotCount>21</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundCast>CW_NapalmBlast</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Hellfire</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <rapidfire>true</rapidfire>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_NapalmWave</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>19.9</range>
+        <minRange>1.5</minRange>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <burstShotCount>14</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>CW_NapalmWave</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+      <li>Blunt</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+      <li>Blunt</li>
+      <li>Poke</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+      <li Class="CyberneticWarfare.CompProperties_WargearWeaponToggle">
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Dual Eraser -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_DualEraser</defName>
+    <label>twin bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Whirlwind</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>CW_DualEraser</defName>
+    <label>Dual Eraser</label>
+    <description>A pair of rapid fire machine pistols in form of two compact twin erasers with huge magazines for dual wielding purposes. The immense firepower like its multi shot comes at the price of low precision. Found on high criminal Urbworlds, where narrow alleys are present. Can be mounted on cybernetics for faster reloads on close up targets.\n\nMade for Akimbo.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/DoubleDualErasers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <generateCommonality>0.05</generateCommonality>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>CW_CyberneticWarfare</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>3</EquipDelay>
+      <WorkToMake>36000</WorkToMake>
+      <Mass>3.8</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>50</Plasteel>
+      <Steel>150</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <equippedStatOffsets>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
+    </equippedStatOffsets>
+    <weaponTags Inherit="False">
+      <li>SpacerGun</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Multi Shot</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <pelletCount>2</pelletCount>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_DualEraser</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>19.9</range>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Rapid Fire</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <rapidfire>true</rapidfire>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_DualEraser</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>19.9</range>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <burstShotCount>24</burstShotCount>
+        <soundCast>CW_BallisticBurst</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+      <li>Blunt</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+      <li>Blunt</li>
+      <li>Poke</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+      <li Class="CyberneticWarfare.CompProperties_WargearWeaponToggle">
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Accelerator -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Accelerator</defName>
+    <label>singularity</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <armorPenetrationBase>0.75</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>95</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>CW_Accelerator</defName>
+    <label>accelerator</label>
+    <description>A heavy cybernetic weapon system. The inner coils of this monstrum are switched on and off in a precisely timed sequence, causing the hybrid projectiles to be accelerated quickly along the barrel via magnetic forces. Swaps between ammunition on toggle.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Accelerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <soundInteract>CW_LoadingSystem</soundInteract> <!-- Interact_ChargeRifle -->
+    <generateCommonality>0.05</generateCommonality>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>CW_CyberneticWarfare</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>14</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>3</EquipDelay>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>4.6</Mass>
+      <AccuracyTouch>0.69</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.92</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Uranium>70</Uranium>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>SpacerGun</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Singularity</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Accelerator</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <minRange>1.5</minRange>
+        <range>49.9</range>
+        <soundCast>CW_GaussProjectile</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Charged</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <pelletCount>2</pelletCount>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ChargeRifle</defaultProjectile> <!-- Bullet_Shotgun -->
+        <warmupTime>2.5</warmupTime>
+        <range>37.9</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeRifle</soundCast> <!-- ChargeLance_Fire -->
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Double Time</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <rapidfire>true</rapidfire>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_HeavySMG</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>32.4</range>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+      <li>Blunt</li>
+      </capacities>
+      <power>11</power>
+      <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+      <li>Blunt</li>
+      <li>Poke</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+      <li Class="CyberneticWarfare.CompProperties_WargearWeaponToggle">
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Plasma Gun -->
+
+  <Bullet_PlasmaBlast.label>プラズマブラスター弾</Bullet_PlasmaBlast.label>
+  <Bullet_PlasmaBurst.label>プラズマ火球</Bullet_PlasmaBurst.label>
+
+  <CW_PlasmaGun.label>SW プラズマガン</CW_PlasmaGun.label>
+  <CW_PlasmaGun.description>強力なサイボーグ兵器システムです。この風変わりな銃の内部コイルには、正確なタイミングでオンとオフが切り替わり、複合素材の発射体は、電磁力バレルに沿って超高速に加速されます。モード切替時に弾薬の種類も切替えます。その優秀な火力で軽装甲の戦闘車両や航空機を破壊できるように設計されています。</CW_PlasmaGun.description>
+  <CW_PlasmaGun.tools.stock.label>ストック</CW_PlasmaGun.tools.stock.label>
+  <CW_PlasmaGun.tools.barrel.label>バレル</CW_PlasmaGun.tools.barrel.label>
+  <CW_PlasmaGun.verbs.Melter.label>プラズマモード</CW_PlasmaGun.verbs.Melter.label>
+  <CW_PlasmaGun.verbs.Blaster.label>ブラスターモード</CW_PlasmaGun.verbs.Blaster.label>
+
+
+  <!-- Havoc Launcher -->
+
+  <Bullet_HavocGrenadeLauncher.label>量子弾</Bullet_HavocGrenadeLauncher.label>
+
+  <CW_HavocLauncher.label>SW ハボックランチャー</CW_HavocLauncher.label>
+  <CW_HavocLauncher.description>ストリートでの抗争問題に対抗するために、いくつかのサイバネ会社によって組み立てられた大型マルチランチャーです。その設計図はすぐにいくつかの企業の手に渡り、そして作られた武器は発明者自身に対して複製品が使用されることとなりました...訓練されて装備が整えられた治安部隊たちによって。この砲弾は衝撃を受けると爆発して、小規模な化学兵器をまき散らす大量破壊兵器として有名になりました。この強力な毒性を持つ化学物質は数秒で生物の重要器官を破壊します。\n\n武器の名前は開発された当初から一緒です。</CW_HavocLauncher.description>
+  <CW_HavocLauncher.tools.stock.label>ストック</CW_HavocLauncher.tools.stock.label>
+  <CW_HavocLauncher.tools.barrel.label>バレル</CW_HavocLauncher.tools.barrel.label>
+  <CW_HavocLauncher.verbs.Verb_Shoot.label>SW ハボックランチャー</CW_HavocLauncher.verbs.Verb_Shoot.label>
+
+
+  <!-- Coil Gun -->
+
+  <Bullet_FerromagneticEraser.label>強磁性消滅弾</Bullet_FerromagneticEraser.label>
+  <Bullet_EnergyCarrier.label>エネルギー弾頭</Bullet_EnergyCarrier.label>
+
+  <CW_CoilGun.label>SW コイルガン</CW_CoilGun.label>
+  <CW_CoilGun.description>1つの大きな電磁コイルが電磁射出機として使用されている大型の発射体電磁加速器で、強磁性または導電性の発射体を超音速まで一気に加速します。その優秀な火力で軽装甲の戦闘車両や航空機を破壊できるように設計されています。</CW_CoilGun.description>
+  <CW_CoilGun.tools.stock.label>ストック</CW_CoilGun.tools.stock.label>
+  <CW_CoilGun.tools.barrel.label>バレル</CW_CoilGun.tools.barrel.label>
+  <CW_CoilGun.verbs.Tank_Destroyer.label>対戦車モード</CW_CoilGun.verbs.Tank_Destroyer.label>
+  <CW_CoilGun.verbs.Annihilation.label>消滅モード</CW_CoilGun.verbs.Annihilation.label>
+
+
+  <!-- Recon Bolter -->
+
+  <Bullet_ReconBolter.label>エネルギービーム弾</Bullet_ReconBolter.label>
+
+  <CW_ReconBolter.label>SW リコンボルター</CW_ReconBolter.label>
+  <CW_ReconBolter.description>サイボーグ戦闘用に設計された強力なエネルギー弾頭のエネルギー光学兵器(Bolter)です。 目標補足システムが装着されており、命中精度を向上させる制御装置と使用者の視覚を接続することが可能です。 それは非常に長距離まで届く射程を持ち、厚い装甲を貫通した上に中身を溶解させて、一瞬で肉体を蒸発させる威力を持ちます。</CW_ReconBolter.description>
+  <CW_ReconBolter.tools.stock.label>ストック</CW_ReconBolter.tools.stock.label>
+  <CW_ReconBolter.tools.barrel.label>バレル</CW_ReconBolter.tools.barrel.label>
+  <CW_ReconBolter.verbs.Verb_Shoot.label>SW リコンボルター</CW_ReconBolter.verbs.Verb_Shoot.label>
+
+</LanguageData>

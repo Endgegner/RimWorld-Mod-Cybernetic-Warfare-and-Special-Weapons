@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <!-- Mod Support for Adeptus Mechanicus -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Adeptus Mechanicus: Armoury R1.0</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Avoid Duplicates -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CW_PlasmaGun"]/label</xpath>
+				<value>
+					<label>Plasma Rifle</label>
+				</value>
+			</li>
+		</operations>
+	</match>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <CyborgWeaponry.SwitchFireMode>Switch mode to {0}.</CyborgWeaponry.SwitchFireMode>
+    <CyborgWeaponry.ResearchRequirementNotMet>You haven't finished all of the research required for this mode.</CyborgWeaponry.ResearchRequirementNotMet>
+    <CyborgWeaponry.VerbActive>active</CyborgWeaponry.VerbActive>
+
+</LanguageData>

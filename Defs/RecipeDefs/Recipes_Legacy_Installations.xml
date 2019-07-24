@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Energy Fist -->
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>ANN_InstallShocker</defName>
+    <label>install shocker</label>
+    <description>Install a shock module.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing hand implant.</jobString>
+    <workAmount>5000</workAmount>
+    <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+	<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+	<recipeUsers>
+		<li>Human</li>
+	</recipeUsers>
+    <skillRequirements>
+      <Medicine>12</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ANN_Shocker</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>ANN_Shocker</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Trunken_hediff_Shocker</addsHediff>
+  </RecipeDef>
+
+</Defs>

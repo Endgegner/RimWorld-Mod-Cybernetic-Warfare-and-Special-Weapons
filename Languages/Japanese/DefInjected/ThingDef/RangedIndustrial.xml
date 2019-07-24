@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Riot Breaker -->
+
+  <CW_RiotBreaker.label>SW ライオットブレイカー</CW_RiotBreaker.label>
+  <CW_RiotBreaker.description>連射式に改造されたマガジン給弾式の散弾銃で、反動吸収装置が付いています。巨大なマガジンを装着して、近距離での速射で抜群の威力を発揮します。この武器は、非常に危険な囚人たちが収容されている囚人惑星で治安維持のために作られました。</CW_RiotBreaker.description>
+  <CW_RiotBreaker.tools.stock.label>ストック</CW_RiotBreaker.tools.stock.label>
+  <CW_RiotBreaker.tools.barrel.label>バレル</CW_RiotBreaker.tools.barrel.label>
+  <CW_RiotBreaker.verbs.Verb_Shoot.label>SW ライオットブレイカー</CW_RiotBreaker.verbs.Verb_Shoot.label>
+
+
+  <!-- Ballistic Shredder -->
+
+  <Bullet_BallisticShredder.label>強力シュレッダー弾</Bullet_BallisticShredder.label>
+
+  <CW_BallisticShredder.label>SW BSシュレッダー</CW_BallisticShredder.label>
+  <CW_BallisticShredder.description>大口径のスラグ弾頭を使用するコンパクトな銃です。射程はとても短いですが、制圧力があり取り扱いやすいです。マガジンのサイズが大きく、反動吸収装置が取り付けられているため、目標を大きく外す事が少ないのが特徴です。</CW_BallisticShredder.description>
+  <CW_BallisticShredder.tools.grip.label>グリップ</CW_BallisticShredder.tools.grip.label>
+  <CW_BallisticShredder.tools.barrel.label>バレル</CW_BallisticShredder.tools.barrel.label>
+  <CW_BallisticShredder.verbs.Verb_Shoot.label>SW BSシュレッダー</CW_BallisticShredder.verbs.Verb_Shoot.label>
+
+
+  <!-- Ballistic Combat Gun -->
+
+  <Bullet_BallisticCombatGun.label>軍用ライフル弾</Bullet_BallisticCombatGun.label>
+
+  <CW_BallisticCombatGun.label>SW BSコンバットガン</CW_BallisticCombatGun.label>
+  <CW_BallisticCombatGun.description>野戦と市街戦どちらでも運用可能な汎用性の高いガス動作式軍用ライフル銃です。大威力を持つ装弾用に設計されています。より強力な威力と速射性能、高い命中精度を持っています。</CW_BallisticCombatGun.description>
+  <CW_BallisticCombatGun.tools.stock.label>ストック</CW_BallisticCombatGun.tools.stock.label>
+  <CW_BallisticCombatGun.tools.barrel.label>バレル</CW_BallisticCombatGun.tools.barrel.label>
+  <CW_BallisticCombatGun.verbs.Verb_Shoot.label>SW BSコンバットガン</CW_BallisticCombatGun.verbs.Verb_Shoot.label>
+
+
+  <!-- Ballistic Enforcer -->
+
+  <Bullet_BallisticEnforcer.label>エンフォーサー弾</Bullet_BallisticEnforcer.label>
+
+  <CW_BallisticEnforcer.label>SW BSエンフォーサー</CW_BallisticEnforcer.label>
+  <CW_BallisticEnforcer.description>野戦用サポートシステムの付いたスマート軍用エネルギーライフルです。この形式は、その火力と命中精度を向上させるために統合データシステムとコンピューターで接続されています。エネルギー式の射出弾は、銃の過熱を防ぐために細かくバーストさせて射撃されます。</CW_BallisticEnforcer.description>
+  <CW_BallisticEnforcer.tools.stock.label>ストック</CW_BallisticEnforcer.tools.stock.label>
+  <CW_BallisticEnforcer.tools.barrel.label>バレル</CW_BallisticEnforcer.tools.barrel.label>
+  <CW_BallisticEnforcer.verbs.Verb_Shoot.label>SW BSエンフォーサー</CW_BallisticEnforcer.verbs.Verb_Shoot.label>
+
+</LanguageData>

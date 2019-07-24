@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Shocker -->
+  <ThingDef ParentName="ImplantBase">
+    <defName>ANN_Shocker</defName>
+    <label>shocker</label>
+    <description>A combat-oriented hand implant consisting of a round shocker inside the palm and a titanium metalplate around the knuckles. The electric pulse activates by angling up four fingers and pulling back the thumb. Obtains its power by the body system.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Gold>25</Gold>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>ANN_NeuralNetwork</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>14</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <Flammability>0.5</Flammability>
+	  <DeteriorationRate>0.3</DeteriorationRate>
+	  <Beauty>1</Beauty>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Energy Claws -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>CW_EnergyClaw</defName>
+    <label>energy claw</label>
+    <description>A massive mechanized glove wired to the forearm with a retractable claw extension. The weapon system controls an enhanced servo motor for hydraulic power in close combat. Capable of hitting multiple targets and going through metal like butter.\n\nEnergy Claws were favored by they oldest of the Space Marine Clans. The bravest among them even broke into Tanks or climbed onto Mechs to destroy them from within.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/EnergyClaw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <techLevel>Ultra</techLevel>
+    <generateCommonality>0.05</generateCommonality>
+    <equippedAngleOffset>0</equippedAngleOffset>
+    <soundInteract>CW_BatteryRecharge</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>CW_CyberneticWarfare</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Gold>50</Gold>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>3</EquipDelay>
+      <WorkToMake>66500</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tools>
+      <li>
+        <label>energy burst</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>0.25</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>0.25</cooldownTime>
+        <armorPenetration>0.50</armorPenetration>
+      </li>
+      <li>
+        <label>claw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>0.25</cooldownTime>
+      </li>
+      <li>
+        <label>sidestep stab</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+        <power>8</power>
+        <cooldownTime>0.25</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Energy Sword -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>CW_EnergySword</defName>
+    <label>energy sword</label>
+    <description>A fluctuative power sword unloading while slashing and stabbing. The bundled energy can force the blade through the heaviest of platings. Made for the hands of Space Marines.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/EnergySword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <generateCommonality>0.10</generateCommonality>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <soundInteract>CW_BatteryRecharge</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>CW_CyberneticWarfare</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Gold>50</Gold>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>2</EquipDelay>
+      <WorkToMake>55000</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>0.10</MeleeHitChance>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <armorPenetration>0.50</armorPenetration>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Chain Sword -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>CW_ChainSword</defName>
+    <label>chain sword</label>
+    <description>A fierce power sword with a compound servo-motor in the handle. Its edge is surrounded by a chain saw mechaism with diamond sharp teeth. This prototype was carried by space marines to destroy tanks in one to one combat. It deals great damage, but is hard to manipulate.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/ChainSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <generateCommonality>0.05</generateCommonality>
+    <equippedAngleOffset>-50</equippedAngleOffset>
+    <soundInteract>CW_ChainSaw</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>CW_FrameworkWeaponry</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Gold>50</Gold>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>2</EquipDelay>
+      <WorkToMake>55000</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>33</power>
+        <armorPenetration>0.75</armorPenetration>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- Gun Blade -->
+  <thingDef ParentName="BaseBullet">
+    <defName>CW_Gunslinger</defName>
+    <label>Pulse</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>55</speed>
+    </projectile>
+  </thingDef>
+
+  <thingDef ParentName="BaseBullet">
+    <defName>CW_Pulse</defName>
+    <label>Pulse</label>
+    <graphicData>
+      <texPath>Things/Projectile/BladePulse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </thingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>CW_GunBlade</defName>
+    <label>gun blade</label>
+    <description>An ergonomic handgun with a comfortable blade extension. This attempt tries to counterattack the lack of close combat capacities of its weapon type, based on an old gun design by a well-known weaponsmith.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/GunBlade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <generateCommonality>0.05</generateCommonality>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>CW_FrameworkWeaponry</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Uranium>50</Uranium>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <Beauty>-2</Beauty>
+      <EquipDelay>2</EquipDelay>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>2.5</Mass>
+      <AccuracyTouch>0.68</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.74</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>0.05</MeleeHitChance>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+          <capacities>
+        <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <armorPenetration>0.10</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+          <capacities>
+        <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <verbs>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Gunslinger</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>CW_Gunslinger</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+      <li Class="CyberneticWarfare.VerbPropertiesCW">
+        <label>Pulsefire</label>
+        <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>CW_Pulse</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>29.9</range>
+        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>CW_BlasterShot</soundCast> <!--Shot_Revolver -->
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+      <li Class="CyberneticWarfare.CompProperties_WargearWeaponToggle">
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>CW_CyborgWeaponry</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

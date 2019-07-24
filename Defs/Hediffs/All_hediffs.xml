@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Electro -->
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>Trunken_hediff_Shocker</defName>
+		<label>Shocker</label>
+		<labelNoun>a shock module</labelNoun>
+		<defaultLabelColor>(0.85, 0.3, 0)</defaultLabelColor>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+				<li>
+					<label>Uppercut</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9.0</power>
+					<cooldownTime>0.5</cooldownTime>
+					<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					<hediff>Trunken_hediff_KnockOut</hediff>
+				</li>
+				<li>
+					<label>Shocker</label>
+					<capacities>
+						<li>CW_Shock</li>
+					</capacities>
+					<power>5.0</power>
+					<cooldownTime>0.5</cooldownTime>
+					<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+				</li>
+				<li>
+					<label>Punch</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>7.0</power>
+					<cooldownTime>0.5</cooldownTime>
+					<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					<hediff>Trunken_hediff_KnockOut</hediff>
+					<chanceFactor>0.7</chanceFactor>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+							<def>Stun</def>
+							<amount>14</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+				</li>
+			</tools>
+		  </li>
+		</comps>
+		<spawnThingOnRemoved>ANN_Shocker</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.10</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="DiseaseBase">
+		<defName>Trunken_hediff_KnockOut</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>knock out</label>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<labelNoun>a loss of consciousness</labelNoun>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.1</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>dizzy</label>
+				<minSeverity>0.25</minSeverity>
+				<vomitMtbDays>0.01</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>dazed</label>
+				<minSeverity>0.5</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>stars</label>
+				<minSeverity>0.67</minSeverity>
+				<painFactor>0</painFactor>
+				<lifeThreatening>true</lifeThreatening>
+				<deathMtbDays>5.2</deathMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>unconsciousness</label>
+				<minSeverity>1</minSeverity>
+				<painFactor>0</painFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4.0</severityPerDay>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="DiseaseBase">
+		<defName>Trunken_hediff_Electrocuted</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>electrocuted</label>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<labelNoun>an electrification</labelNoun>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>90000</min>
+					<max>180000</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.2</setMax>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.2</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+  <!-- Energetic -->
+	<HediffDef ParentName="InjuryBase">
+	<defName>Trunken_hediff_PlasmaBurn</defName>
+	<label>plasma burn</label>
+    <labelNoun>a plasma wound</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.25</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>plasma burn scar</permanentLabel>
+      </li>
+    </comps>
+	<injuryProps>
+		<painPerSeverity>0.02275</painPerSeverity>
+		<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+		<canMerge>true</canMerge>
+		<destroyedLabel>Burned away</destroyedLabel>
+		<destroyedOutLabel>Burned away</destroyedOutLabel>
+	</injuryProps>
+	</HediffDef>
+
+  <HediffDef>
+    <defName>Trunken_hediff_LaserShot</defName>
+    <label>laser beam</label>
+    <labelNoun>a Laser wound</labelNoun>
+    <hediffClass>Hediff_Injury</hediffClass>
+    <tendable>true</tendable>
+    <displayWound>true</displayWound>
+    <labelNounPretty>{0} in the {1}</labelNounPretty>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.15</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>old laser burn</permanentLabel>
+        <instantlyPermanentLabel>Permanent Laser Injury</instantlyPermanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <bleedRate>0.06</bleedRate>
+      <canMerge>false</canMerge>
+      <destroyedLabel>Vaporised</destroyedLabel>
+      <destroyedOutLabel>Vaporised</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+
+</Defs>

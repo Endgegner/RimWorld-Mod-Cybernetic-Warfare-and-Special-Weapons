@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <!-- Support for Dual Wield -->
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>	
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ConceptDef[defName="DW_Penalties"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CW_DualEraser"]/description</xpath>
+				<value>
+						<description>A compact fire machine pistol, usually worn as a pair. This combination of twin erasers comes with a huge magazine for dual wielding purposes. The immense firepower has his price though reducing the overall precision. Found on high criminal Urbworlds, where narrow alleys are present. Can be mounted on cybernetics for faster reloads and rapid fire mode on close up targets.\n\nMade for Akimbo.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CW_DualEraser"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/WeaponRanged/DualEraser</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CW_DualEraser"]/costList</xpath>
+				<value>
+					<costList>
+						<Plasteel>25</Plasteel>
+						<Steel>75</Steel>
+						<ComponentIndustrial>8</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

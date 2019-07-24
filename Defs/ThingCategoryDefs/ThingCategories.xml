@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Cyborg -->
+    <ThingCategoryDef>
+      <defName>CW_CyborgWeaponry</defName>
+      <label>cyborg weaponry</label>
+      <parent>Weapons</parent>
+	  </ThingCategoryDef>
+
+</Defs>

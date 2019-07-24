@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- ==================== Shocker ========================== -->
+    <DamageDef ParentName="BluntBase">
+      <defName>CW_Shock</defName>
+      <label>shock</label>
+      <workerClass>DamageWorker_Blunt</workerClass>
+      <externalViolence>true</externalViolence>
+      <deathMessage>{0} has been beaten to death.</deathMessage>
+      <hediff>Crush</hediff>
+      <hediffSkin>Bruise</hediffSkin>
+      <hediffSolid>Crack</hediffSolid>
+      <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+      <impactSoundType>Electric</impactSoundType>
+      <armorCategory>Blunt</armorCategory>
+      <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
+      <bluntStunDuration>2.0</bluntStunDuration>
+      <bluntInnerHitChance>0.4</bluntInnerHitChance>
+      <bluntInnerHitDamageFractionToConvert>
+        <min>0.1</min>
+        <max>0.2</max>
+      </bluntInnerHitDamageFractionToConvert>
+      <bluntInnerHitDamageFractionToAdd>
+        <min>0.2</min>
+        <max>0.35</max>
+      </bluntInnerHitDamageFractionToAdd>
+      <bluntStunChancePerDamagePctOfCorePartToHeadCurve>
+        <points>
+          <li>(0, 1)</li>
+          <li>(0, 1)</li>
+        </points>
+      </bluntStunChancePerDamagePctOfCorePartToHeadCurve>
+      <bluntStunChancePerDamagePctOfCorePartToBodyCurve>
+        <points>
+          <li>(0, 1)</li>
+          <li>(0, 1)</li>
+        </points>
+      </bluntStunChancePerDamagePctOfCorePartToBodyCurve>
+  </DamageDef>
+
+  <!-- ==================== Disruptor ========================== -->
+  <DamageDef>
+    <defName>CW_ElectroBurn</defName>
+    <label>electrocute</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <harmsHealth>true</harmsHealth>
+    <hasForcefulImpact>False</hasForcefulImpact>
+    <canInterruptJobs>true</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <externalViolence>false</externalViolence>
+    <impactSoundType>Electric</impactSoundType>
+    <externalViolenceForMechanoids>true</externalViolenceForMechanoids>
+    <deathMessage>{0} has been electrocuted to death.</deathMessage>
+    <hediff>Burn</hediff>
+    <hediffSkin>Burn</hediffSkin>
+    <harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+  </DamageDef>
+
+  <DamageDef ParentName="StunBase">
+    <defName>CW_ElectroCharge</defName>
+    <label>electrocute</label>
+    <workerClass>DamageWorker_AddGlobal</workerClass>
+    <harmsHealth>true</harmsHealth>
+    <hasForcefulImpact>False</hasForcefulImpact>
+    <canInterruptJobs>true</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <externalViolence>false</externalViolence>
+    <impactSoundType>Electric</impactSoundType>
+    <externalViolenceForMechanoids>true</externalViolenceForMechanoids>
+    <deathMessage>{0} has been electrocuted to death.</deathMessage>
+    <hediff>Trunken_hediff_Electrocuted</hediff>
+    <harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+    <explosionInteriorMote>Mote_ElectricalSpark</explosionInteriorMote>
+  </DamageDef>
+
+  <!-- ==================== Havoc cannon ========================== -->
+  <DamageDef ParentName="Flame">
+    <defName>CW_HavocBlaze</defName>
+    <workerClass>CyberneticWarfare.DamageWorker_FlameNoCamShake</workerClass>
+    <label>haboc blaze</label>
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <deathMessage>{0} has burned to death in havoc.</deathMessage>
+    <minDamageToFragment>2</minDamageToFragment>
+    <defaultDamage>2</defaultDamage>
+    <defaultStoppingPower>0</defaultStoppingPower>
+    <defaultArmorPenetration>0.1</defaultArmorPenetration>
+    <explosionHeatEnergyPerCell>1</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastFlame</explosionCellMote>
+    <explosionColorCenter>(0, 0.78, 0.55)</explosionColorCenter>
+    <explosionColorEdge>(0, 1, 0.2)</explosionColorEdge>
+    <soundExplosion>CW_FarExplosion</soundExplosion>
+    <additionalHediffs>
+      <li>
+        <hediff>ToxicBuildup</hediff> <!-- Malaria Plague -->
+        <severityPerDamageDealt>0.02</severityPerDamageDealt>
+        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+
+  <!-- Coil Gun -->
+  <DamageDef>
+		<defName>CW_KineticEnergy</defName>
+		<label>kinetic energy</label>
+		<deathMessage>{0} has been blown to tiny bits.</deathMessage>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <isRanged>true</isRanged>
+    <harmsHealth>true</harmsHealth>
+    <makesBlood>true</makesBlood>
+		<externalViolence>true</externalViolence>
+    <makesAnimalsFlee>false</makesAnimalsFlee>
+    <overkillPctToDestroyPart>0~0.6</overkillPctToDestroyPart>
+    <armorCategory>Sharp</armorCategory>
+    <impactSoundType>Slice</impactSoundType> <!-- Bullet Tornado Electric -->
+    <hediff>Stab</hediff>
+    <hediffSolid>Crack</hediffSolid>
+  </DamageDef>
+
+  <DamageDef ParentName="Bomb">
+    <defName>CW_LongRodPenetrator</defName>
+    <label>long-rod penetrator</label>
+    <workerClass>DamageWorker_AddInjury</workerClass> <!-- DamageWorker_AddInjury -->
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has been annihilated.</deathMessage>
+    <hediff>Shredded</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <defaultDamage>30</defaultDamage>
+    <defaultStoppingPower>0</defaultStoppingPower>
+    <defaultArmorPenetration>0.67</defaultArmorPenetration>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionSnowMeltAmount>1</explosionSnowMeltAmount>
+    <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <explosionColorCenter>(0, 1, 1)</explosionColorCenter>
+    <explosionColorEdge>(0.75, 0.75, 0.75)</explosionColorEdge> <!-- 0, 1, 1 + 0.8, 0.8, 0.8, 0.8 -->
+    <soundExplosion>CW_GaussProjectile</soundExplosion>
+    <combatLogRules>Damage_Bomb</combatLogRules>
+  </DamageDef>
+
+  <!-- Gauss Cannon -->
+  <!-- Accelerator -->
+  <!-- Plasma Gun -->
+	<DamageDef ParentName="Flame">
+		<defName>CW_Plasma</defName>
+		<label>concentrated plasma</label>
+		<deathMessage>{0} has been melted.</deathMessage>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<harmsHealth>true</harmsHealth>
+		<isRanged>true</isRanged>
+		<defaultDamage>40</defaultDamage>
+		<buildingDamageFactor>1</buildingDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellMote>Mote_BlastDry</explosionCellMote>
+		<explosionColorCenter>(0.55, 0.95, 1)</explosionColorCenter>
+		<explosionColorEdge>(0.6, 0.55, 0.9)</explosionColorEdge>
+		<soundExplosion>Explosion_Flame</soundExplosion>
+		<defaultArmorPenetration>1</defaultArmorPenetration>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<hediff>Trunken_hediff_PlasmaBurn</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Heat</armorCategory>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+	</DamageDef>
+
+  <!-- Energetic Laser -->
+  <DamageDef>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <defName>CW_LaserImpact</defName>
+    <label>Laser</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been disintegrated.</deathMessage>
+    <hediff>Trunken_hediff_LaserShot</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType> <!-- Electric Bullet -->
+    <armorCategory>Heat</armorCategory>
+  </DamageDef>
+
+  <DamageDef ParentName="Flame">
+    <defName>CW_LaserHit</defName>
+    <label>Skin Burn</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+  </DamageDef>
+
+</Defs>

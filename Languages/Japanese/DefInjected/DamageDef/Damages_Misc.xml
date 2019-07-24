@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Shocker -->
+
+  <CW_Shock.label>打撃</CW_Shock.label>
+  <CW_Shock.deathMessage>{0}は打撃によって死んだ</CW_Shock.deathMessage>
+
+  <CW_Cleave.label>裂傷</CW_Cleave.label>
+  <CW_Cleave.deathMessage>{0}は切り裂かれて死んだ</CW_Cleave.deathMessage>
+
+
+  <!-- Disruptor -->
+
+  <CW_ElectroBurn.label>感電</CW_ElectroBurn.label>
+  <CW_ElectroBurn.deathMessage>{0}は感電して死んだ</CW_ElectroBurn.deathMessage>
+
+  <CW_ElectroCharge.label>感電</CW_ElectroCharge.label>
+  <CW_ElectroCharge.deathMessage>{0}は感電して死んだ</CW_ElectroCharge.deathMessage>
+
+
+  <!-- Havoc cannon -->
+
+  <CW_HavocBlaze.label>火傷(ハボック)</CW_HavocBlaze.label>
+  <CW_HavocBlaze.deathMessage>{0}は火傷(ハボック)で死んだ</CW_HavocBlaze.deathMessage>
+
+
+  <!-- Coil Gun -->
+
+  <CW_KineticEnergy.label>運動衝撃</CW_KineticEnergy.label>
+  <CW_KineticEnergy.deathMessage>{0}は細切れにされて死んだ</CW_KineticEnergy.deathMessage>
+
+  <CW_LongRodPenetrator.label>ロングロッドペネトレーター</CW_LongRodPenetrator.label>
+  <CW_LongRodPenetrator.deathMessage>{0}は消滅して死んだ</CW_LongRodPenetrator.deathMessage>
+
+
+  <!-- Plasma Gun -->
+
+  <CW_Plasma.label>濃縮プラズマ</CW_Plasma.label>
+  <CW_Plasma.deathMessage>{0}は溶解して死んだ</CW_Plasma.deathMessage>
+
+
+  <!-- Energetic Laser -->
+
+  <CW_LaserImpact.label>レーザー</CW_LaserImpact.label>
+  <CW_LaserImpact.deathMessage>{0}は崩壊して死んだ</CW_LaserImpact.deathMessage>
+
+  <CW_LaserHit.label>火傷(皮膚)</CW_LaserHit.label>
+  <CW_LaserHit.deathMessage>{0}は焼かれて死んだ</CW_LaserHit.deathMessage>
+
+</LanguageData>

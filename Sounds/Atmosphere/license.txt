@@ -1,0 +1,96 @@
+
+  Sound #1 Electrocuted
+  Author: Snake
+  License: RimTaser
+ 
+  Sound #2 Continous Spark
+  Author: bmaczero
+  License: CC-BY 3.0
+  
+  Sound #3 Arcade Laser
+  Author: debsound
+  License: CC-BY 3.0 
+
+  Sound #4 Ballistic Burst
+  Author: ogsoundfx
+  License: CC-BY 3.0
+
+  Sound #5 GunFire
+  Author: willary1
+  License: CC-BY 3.0 
+
+  Sound #6 Energy Beam
+  Author: Bubaproducer & Oskar P.
+  License: CC-BY 3.0 
+
+  Sound #7 Battery Recharge
+  Author: dpoggioli
+  License: CC-BY 3.0 
+
+  Sound #8 Plasma Boil
+  Author: senitiel
+  License: CC-BY 3.0 
+
+  Sound #9 Camera
+  Author: mmaruska
+  License: CC-BY 3.0 
+
+  Sound #10 Gauss Projectile
+  Author: isaac200000
+  License: CC-BY 3.0
+
+  Sound #11 Far Explosion
+  Author: bird-man
+  License: CC-BY 3.0
+
+  Sound #12 Railgun
+  Author: jonccox
+  License: CC-BY 3.0
+
+  Sound #13 Loading
+  Author: DemonicElectronic
+  License: CC-BY 3.0
+
+  Sound #14 PowerSpark
+  Author: qubodup
+  License: CC-BY 3.0
+
+  Sound #15 Electrification
+  Author: sieuamthanh
+  License: CC-BY 3.0
+
+  Sound #16 Chain Saw
+  Author: Jay_You
+  License: CC-BY 3.0
+
+  Sound #17 Miss Punch
+  Author: DrMinky
+  License: CC-BY 3.0
+
+  Sound #18 Blaster Shot
+  Author: trxone
+  License: CC-BY 3.0
+
+  Sound #19 Power Beam
+  Author: OnlyTheGhosts
+  License: CC-BY 3.0
+
+  Sound #20 Electric Pulse
+  Author: WillFitch1
+  License: CC-BY 3.0
+
+  Sound #21 Futuristic Weapon
+  Author: charliewd100
+  License: CC-BY 3.0
+
+  Sound #22 Napalm Flame
+  Author: CTCollab
+  License: CC-BY 3.0
+
+  Sound #23 Napalm Wave
+  Author: EpicSoundEffects
+  License: CC-BY 3.0
+
+  Sound #24 Napalm Blast
+  Author: SilverIllusionist
+  License: CC-BY 3.0

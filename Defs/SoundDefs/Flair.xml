@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+   <!-- Ballistic Weapons -->
+   <SoundDef>
+      <defName>CW_BallisticBurst</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>1</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/BallisticBurst</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_GunFire</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>1</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/GunFire</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_FuturisticWeapon</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/FuturisticWeapon</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_ReflectorSight</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/ReflectorSight</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <!-- Elemental Weapons -->
+   <SoundDef>
+      <defName>CW_NapalmFlame</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>3</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/NapalmFlame</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>True</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_NapalmBlast</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>1</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/NapalmBlast</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_NapalmWave</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>1</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/NapalmWave</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>   
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_PlasmaBoil</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>1</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/PlasmaBoil</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>70</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_FarExplosion</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>3</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/FarExplosion</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <!-- Electric Weapons -->
+   <SoundDef>
+      <defName>CW_ElectricPulse</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/ElectricPulse</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_Electrification</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/Electrification</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>20</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_Electrocuted</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/Electrocuted</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>20</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_ContinousSpark</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/ContinousSpark</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_PowerSpark</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/PowerSpark</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <!-- Ferromagnetic Weapons -->
+   <SoundDef>
+      <defName>CW_RailGun</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>8</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/RailGun</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9982353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>90</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_GaussProjectile</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>8</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/GaussProjectile</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>11</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_LoadingSystem</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/LoadingSystem</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <!-- Energy Weapons -->
+   <SoundDef>
+      <defName>CW_EnergyBeam</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/EnergyBeam</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_ArcadeLaser</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>1</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/ArcadeLaser</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_BlasterShot</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/BlasterShot</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_PowerBeam</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/PowerBeam</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>50</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_BatteryRecharge</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/BatteryRecharge</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>11</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>70</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <!-- Motoric Weapons -->
+   <SoundDef>
+      <defName>CW_ChainSaw</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+               <li Class="AudioGrain_Clip">
+                  <clipPath>Atmosphere/ChainSaw</clipPath>
+               </li>
+            </grains>
+            <volumeRange>
+               <min>9</min>
+               <max>12</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>60</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+      <defName>CW_MissPunch</defName>
+      <eventNames />
+      <context>MapOnly</context>
+      <maxSimultaneous>4</maxSimultaneous>
+      <subSounds>
+         <li>
+            <onCamera>True</onCamera>
+            <grains>
+            <li Class="AudioGrain_Clip">
+               <clipPath>Atmosphere/MissPunch</clipPath>
+            </li>
+            </grains>
+            <volumeRange>
+               <min>8</min>
+               <max>13</max>
+            </volumeRange>
+            <pitchRange>
+               <min>0.9082353</min>
+               <max>1.114706</max>
+            </pitchRange>
+            <distRange>
+               <min>70</min>
+               <max>100</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+         </li>
+      </subSounds>
+   </SoundDef>
+
+</Defs>

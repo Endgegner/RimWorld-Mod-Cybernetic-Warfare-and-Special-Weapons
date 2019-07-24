@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Shocker -->
+
+  <ANN_Shocker.label>SW ショッカー</ANN_Shocker.label>
+  <ANN_Shocker.description>手のひらの内側にある丸い雷撃装置と、指関節の周囲に付いているチタン製の金属装甲で構成されている、手に取り付ける戦闘用の義肢です。4本の指を上に向け、親指を後ろに反らすことで電気パルスが放出されます。身体システムから電力を供給します。</ANN_Shocker.description>
+
+
+  <!-- Energy Claws -->
+
+  <CW_EnergyClaw.label>SW エネルギークロウ</CW_EnergyClaw.label>
+  <CW_EnergyClaw.description>前腕部に収納可能な折り畳みクローをワイヤーで繋いだ巨大な機械式義手です。この兵器システムでは、接近戦で油圧式動力により強化なサーボモータを制御します。複数の標的を巻き込んだり、金属をバターのように切り裂くことができます。\n\n「エネルギークロウ」 は、宇宙海兵隊の古参兵たちから信頼されていました。彼らの中で最も勇敢な者は戦車や機動歩兵に突撃してそらをズタズタに破壊したりしていました。</CW_EnergyClaw.description>
+  <CW_EnergyClaw.tools.energy_burst.label>爆砕</CW_EnergyClaw.tools.energy_burst.label>
+  <CW_EnergyClaw.tools.blade.label>刀</CW_EnergyClaw.tools.blade.label>
+  <CW_EnergyClaw.tools.claw.label>爪</CW_EnergyClaw.tools.claw.label>
+  <CW_EnergyClaw.tools.sidestep_stab.label>脇突き</CW_EnergyClaw.tools.sidestep_stab.label>
+
+
+  <!-- Energy Sword -->
+
+  <CW_EnergySword.label>SW エネルギーソード</CW_EnergySword.label>
+  <CW_EnergySword.description>切断と刺突可能な電気エネルギーの刃が取り付けられた剣です。収束されたエネルギーにより、重装甲なメカノイドをも貫通する事が可能です。宇宙海兵隊用に開発されました。</CW_EnergySword.description>
+  <CW_EnergySword.tools.handle.label>柄</CW_EnergySword.tools.handle.label>
+  <CW_EnergySword.tools.point.label>切っ先</CW_EnergySword.tools.point.label>
+  <CW_EnergySword.tools.edge.label>刀</CW_EnergySword.tools.edge.label>
+
+
+  <!-- Chain Sword -->
+
+  <CW_ChainSword.label>SW チェインソード</CW_ChainSword.label>
+  <CW_ChainSword.description>柄に複合式のサーボモーターを内臓した強力な電動式の剣です。その刃の縁にダイヤモンド製の鋭いノコギリ歯が取り付けられたチェーンソーが取り付けられています。この試作品は、タイマン戦闘で戦車を破壊するために宇宙海兵隊によって選ばれました。破壊力はありますが、操作が難しいです。</CW_ChainSword.description>
+  <CW_ChainSword.tools.handle.label>柄</CW_ChainSword.tools.handle.label>
+  <CW_ChainSword.tools.point.label>切っ先</CW_ChainSword.tools.point.label>
+  <CW_ChainSword.tools.edge.label>刀</CW_ChainSword.tools.edge.label>
+
+
+  <!-- Gun Blade -->
+
+  <CW_Gunslinger.label>パルス弾</CW_Gunslinger.label>
+  <CW_Pulse.label>パルス弾</CW_Pulse.label>
+
+  <CW_GunBlade.label>SW ガンブレード</CW_GunBlade.label>
+  <CW_GunBlade.description>取り回しやすいブレードが付けられた、人間工学に基づいて設計された拳銃です。この試作品は、有名な武器製造業者の戦闘設計思想に基づいており、拳銃が抱える近接戦闘での能力不足を補うコンセプトテザインです。</CW_GunBlade.description>
+  <CW_GunBlade.tools.handle.label>柄</CW_GunBlade.tools.handle.label>
+  <CW_GunBlade.tools.point.label>切っ先</CW_GunBlade.tools.point.label>
+  <CW_GunBlade.tools.blade.label>刀</CW_GunBlade.tools.blade.label>
+  <CW_GunBlade.verbs.Gunslinger.label>早射ち</CW_GunBlade.verbs.Gunslinger.label>
+  <CW_GunBlade.verbs.Pulsefire.label>連射</CW_GunBlade.verbs.Pulsefire.label>
+
+</LanguageData>

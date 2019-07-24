@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CyborgWeaponry.SwitchFireMode>モードを{0}に切替</CyborgWeaponry.SwitchFireMode>
+  <CyborgWeaponry.ResearchRequirementNotMet>このモードに必要なすべての研究が完了していません。</CyborgWeaponry.ResearchRequirementNotMet>
+  <CyborgWeaponry.VerbActive>稼働</CyborgWeaponry.VerbActive>
+
+</LanguageData>

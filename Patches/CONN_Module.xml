@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <!-- Module to Cybernetic Organism and Neural Network -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Cybernetic Organism and Neural Network</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Prerequisites -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CW_CyberneticWarcraft"]/prerequisites</xpath>
+				<value>
+					<prerequisites>
+						<li>ANN_CyberneticOrganism</li>
+					</prerequisites>
+				</value>
+			</li>
+		</operations>
+	</match>
+  </Operation>
+
+  <!-- Module to Cybernetic Organism and Neural Network -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Cybernetic Organism and Neural Network</li>
+	</mods>
+	<nomatch Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Nomatch Replace Research and Category -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="ANN_Shocker"]/recipeMaker/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>Bionics</researchPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="ANN_Shocker"]/thingCategories/li</xpath>
+				<value>
+					<li>BodyPartsArtificial</li>
+				</value>
+			</li>
+		</operations>
+	</nomatch>
+  </Operation>
+
+</Patch>
