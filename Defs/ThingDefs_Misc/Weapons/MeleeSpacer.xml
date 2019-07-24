@@ -45,7 +45,6 @@
 
   <!-- Power Fist -->
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-    <thingClass>CyberneticWarfare.PawnLauncher</thingClass> <!-- Edit -->
     <defName>CW_PowerFist</defName>
     <label>power fist</label>
     <description>A massive mechanized glove wired to the forearm for hydraulic power bursts and punches. It is vicious in combat, and its powerful mini-servos can crush a skull like a natural hand crushes an egg. This prototype extension was created in a hidden hightech laboratorium and fabricated by their very own underground facilities. Though it was developed in imperial times, their independet state was preserved until now.\n\nStrengthens the soldiers ability to open doors and to create those passages, where they need to be. Grants pushback and pummel mechanics.\n\n&lt;i&gt;Only in death does duty end. Even a man who has nothing can still offer his life. As the Emperor protects, so must we. Peace is not in my vocabulary.&lt;/i&gt;</description>
@@ -113,7 +112,7 @@
       <li>
         <label>Pushback</label>
         <capacities>
-          <li>Blunt</li>
+          <li>BluntKnockback</li>
         </capacities>
         <power>12</power>
         <cooldownTime>2</cooldownTime>
@@ -127,6 +126,9 @@
     <thingCategories Inherit="False">
       <li>CW_CyborgWeaponry</li>
     </thingCategories>
+    <weaponTags Inherit="False">
+      <li>MeleeSpacer</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- Energy Claws -->
@@ -218,6 +220,9 @@
     <thingCategories Inherit="False">
       <li>CW_CyborgWeaponry</li>
     </thingCategories>
+    <weaponTags Inherit="False">
+      <li>MeleeSpacer</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- Energy Sword -->
@@ -300,6 +305,9 @@
     <thingCategories Inherit="False">
       <li>CW_CyborgWeaponry</li>
     </thingCategories>
+    <weaponTags Inherit="False">
+      <li>MeleeSpacer</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- Chain Sword -->
