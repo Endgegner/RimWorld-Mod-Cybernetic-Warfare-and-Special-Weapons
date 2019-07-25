@@ -47,7 +47,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>CW_PowerFist</defName>
     <label>power fist</label>
-    <description>A massive mechanized glove wired to the forearm for hydraulic power bursts and punches. It is vicious in combat, and its powerful mini-servos can crush a skull like a natural hand crushes an egg. This prototype extension was created in a hidden hightech laboratorium and fabricated by their very own underground facilities. Though it was developed in imperial times, their independet state was preserved until now.\n\nStrengthens the soldiers ability to open doors and to create those passages, where they need to be. Grants pushback and pummel mechanics.\n\n&lt;i&gt;Only in death does duty end. Even a man who has nothing can still offer his life. As the Emperor protects, so must we. Peace is not in my vocabulary.&lt;/i&gt;</description>
+    <description>A massive mechanized glove wired to the forearm for hydraulic power bursts and punches. It is vicious in combat, and its powerful mini-servos can crush a skull like a natural hand crushes an egg. This prototype extension was created in a hidden hightech laboratorium and fabricated by their very own underground facilities. Though it was developed in imperial times, their independent state was preserved until now.\n\nStrengthens the soldiers ability to open doors and to create those passages, where they need to be. Grants pushback and pummel mechanics.\n\n&lt;i&gt;Only in death does duty end. Even a man who has nothing can still offer his life. As the Emperor protects, so must we. Peace is not in my vocabulary.&lt;/i&gt;</description>
     <graphicData>
       <texPath>Things/WeaponMelee/PowerFist</texPath>
       <graphicClass>Graphic_Single</graphicClass>
