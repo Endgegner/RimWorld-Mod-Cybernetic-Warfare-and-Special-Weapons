@@ -38,9 +38,9 @@
       <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>25</Steel>
-      <Plasteel>50</Plasteel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <Steel>75</Steel>
+      <Plasteel>75</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
       <li>IndustrialGunAdvanced</li>
@@ -141,7 +141,7 @@
     <costList>
       <Steel>75</Steel>
       <Plasteel>25</Plasteel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
       <li>IndustrialGunAdvanced</li>
@@ -241,7 +241,7 @@
     <costList>
       <Steel>75</Steel>
       <Plasteel>25</Plasteel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
       <li>IndustrialGunAdvanced</li>
@@ -342,8 +342,8 @@
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <Plasteel>25</Plasteel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Plasteel>75</Plasteel>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
       <li>IndustrialGunAdvanced</li>
