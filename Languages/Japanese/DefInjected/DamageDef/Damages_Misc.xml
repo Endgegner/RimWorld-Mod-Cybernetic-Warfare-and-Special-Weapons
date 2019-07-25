@@ -3,8 +3,8 @@
 
   <!-- Shocker -->
 
-  <CW_Shock.label>打撃</CW_Shock.label>
-  <CW_Shock.deathMessage>{0}は打撃によって死んだ</CW_Shock.deathMessage>
+  <CW_Shock.label>電撃</CW_Shock.label>
+  <CW_Shock.deathMessage>{0}は電撃によって死んだ</CW_Shock.deathMessage>
 
   <CW_Cleave.label>裂傷</CW_Cleave.label>
   <CW_Cleave.deathMessage>{0}は切り裂かれて死んだ</CW_Cleave.deathMessage>

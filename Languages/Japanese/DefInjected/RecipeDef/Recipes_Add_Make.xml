@@ -10,6 +10,10 @@
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy, FabricationBench -->
 
+  <Make_CW_PowerFist.label>SW パワーフィストを作る</Make_CW_PowerFist.label>
+  <Make_CW_PowerFist.description>SW パワーフィストを作る。</Make_CW_PowerFist.description>
+  <Make_CW_PowerFist.jobString>SW パワーフィストを製作中</Make_CW_PowerFist.jobString>
+
   <Make_CW_EnergyClaw.label>SW エネルギークロウを作る</Make_CW_EnergyClaw.label>
   <Make_CW_EnergyClaw.description>SW エネルギークロウを作る。</Make_CW_EnergyClaw.description>
   <Make_CW_EnergyClaw.jobString>SW エネルギークロウを製作中</Make_CW_EnergyClaw.jobString>

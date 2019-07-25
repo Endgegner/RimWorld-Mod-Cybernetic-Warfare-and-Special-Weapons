@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Power Fist -->
+
+  <BluntKnockback.label>油圧張手</BluntKnockback.label>
+  <BluntKnockback.deathMessage>{0}は張手されて死んだ</BluntKnockback.deathMessage>
+
+</LanguageData>

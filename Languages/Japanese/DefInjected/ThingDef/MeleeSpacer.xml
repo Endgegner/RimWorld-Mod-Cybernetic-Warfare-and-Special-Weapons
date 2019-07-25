@@ -7,6 +7,15 @@
   <ANN_Shocker.description>手のひらの内側にある丸い雷撃装置と、指関節の周囲に付いているチタン製の金属装甲で構成されている、手に取り付ける戦闘用の義肢です。4本の指を上に向け、親指を後ろに反らすことで電気パルスが放出されます。身体システムから電力を供給します。</ANN_Shocker.description>
 
 
+  <!-- Power Fist -->
+
+  <CW_PowerFist.label>SW パワーフィスト</CW_PowerFist.label>
+  <CW_PowerFist.description>油圧式の腕力強化と打撃用に前腕に油圧パイプが配線された巨大な機械式の手袋です。近接戦闘では凶暴そのもので、その強力な小型油圧ポンプは、自然の手が卵を砕くかのように敵の頭蓋骨を砕くことができます。この試作品の発展版は軍の秘密研究所で開発され、彼らが保有する地下施設で生産されました。これらは銀河帝国時代に開発されましたが、独立国家によってこれまで技術が保存されていました。\n\n兵士の腕力を強化して、彼らが必要とする場所に開口部をこじ開けて通路を作る能力を与えます。装備すると「油圧張手」と「粉砕」の能力が与えられます。\n\n&lt;i&gt;「死ぬその時まで義務は続く。何も持たぬ者であっても、命を捧げて義務を果たせる。我々は皇帝を守る誓いにかけて、その義務を果たさなければならない。平和という文字は我々の辞書にないのだ。」&lt;/i&gt;\n\n-帝国兵訓示より-</CW_PowerFist.description>
+  <CW_PowerFist.tools.Pummel.label>連打</CW_PowerFist.tools.Pummel.label>
+  <CW_PowerFist.tools.Crush.label>粉砕</CW_PowerFist.tools.Crush.label>
+  <CW_PowerFist.tools.Pushback.label>油圧張手</CW_PowerFist.tools.Pushback.label>
+
+
   <!-- Energy Claws -->
 
   <CW_EnergyClaw.label>SW エネルギークロウ</CW_EnergyClaw.label>
