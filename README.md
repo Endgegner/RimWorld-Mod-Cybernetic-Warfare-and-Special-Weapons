@@ -58,7 +58,7 @@ This mod contains a wide spectrum of different weapon types with fantastic effec
 
 Shoot with high calibre cartridges or explosive shells. Take out important single targets with even more power and range. Toast your enemies with animated flames or bomb them back to the stone age with a havoc of toxicity. Blast them away with your lasers, plasma or particle mixtures at atomic-molecular level. Or just bring your jail under control with your new maximum security equipment. Dangerous suspects will think twice.
 
-<img src="https://imgur.com/a/n5Rdrgg" />
+<img src="https://i.imgur.com/QHO7EHq.png" />
 
 **Requirements**
 - Skill: 9-16 Crafting
