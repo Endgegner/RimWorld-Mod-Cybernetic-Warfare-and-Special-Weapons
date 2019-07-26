@@ -106,7 +106,7 @@
         <cooldownTime>0.25</cooldownTime>
       </li>
       <li>
-        <label>Pushback</label>
+        <label>Knockback</label>
         <capacities>
           <li>BluntKnockback</li>
         </capacities>
@@ -175,7 +175,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>10</power>
+        <power>8</power>
         <cooldownTime>0.25</cooldownTime>
       </li>
       <li>

@@ -9,15 +9,6 @@
 	<match Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-			<!-- Capacity -->
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs</xpath>
-				<value>
-					<ToolCapacityDef>
-						<defName>CW_Cleave</defName>
-					</ToolCapacityDef>
-				</value>
-			</li>
 			<!-- Damage -->
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs</xpath>
@@ -36,6 +27,34 @@
 					<cleaveFactor>0.8</cleaveFactor>
 					<cleaveDamage>Scratch</cleaveDamage>
 				  </JecsTools.DamageDefCleave>
+				</value>
+			</li>
+			<!-- Capacity -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+					<ToolCapacityDef>
+						<defName>CW_Cleave</defName>
+					</ToolCapacityDef>
+				</value>
+			</li>
+			<!-- Maneuver -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+					<ManeuverDef>
+						<defName>CleaveMultipleTargets</defName>
+						<requiredCapacity>CW_Cleave</requiredCapacity>
+						<verb>
+							<verbClass>Verb_MeleeAttackDamage</verbClass>
+							<meleeDamageDef>CW_Cleave</meleeDamageDef>
+						</verb>
+						<logEntryDef>MeleeAttack</logEntryDef>
+						<combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+						<combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+						<combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+						<combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+					</ManeuverDef>
 				</value>
 			</li>
 			<!-- Cleave -->

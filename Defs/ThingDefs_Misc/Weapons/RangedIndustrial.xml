@@ -20,7 +20,7 @@
         <Crafting>9</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
+        <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
     <statBases>
@@ -120,7 +120,7 @@
         <Crafting>9</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
+        <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
     <statBases>
@@ -220,7 +220,7 @@
         <Crafting>9</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
+        <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
     <statBases>
@@ -322,7 +322,7 @@
         <Crafting>9</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
+        <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
     <statBases>
