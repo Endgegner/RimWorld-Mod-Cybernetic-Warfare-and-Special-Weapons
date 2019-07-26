@@ -420,12 +420,12 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CW_DualEraser</defName>
-    <label>Dual Eraser</label>
+    <label>dual eraser</label>
     <description>A pair of rapid fire machine pistols in form of two compact twin erasers with huge magazines for dual wielding purposes. The immense firepower like its multi shot comes at the price of low precision. Found on high criminal Urbworlds, where narrow alleys are present. Can be mounted on cybernetics for faster reloads on close up targets.\n\nMade for Akimbo.</description>
     <graphicData>
       <texPath>Things/WeaponRanged/DoubleDualErasers</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.3</drawSize>
     </graphicData>
     <soundInteract>Interact_SMG</soundInteract>
     <generateCommonality>0.05</generateCommonality>

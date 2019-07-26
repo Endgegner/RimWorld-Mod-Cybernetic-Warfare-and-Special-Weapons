@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Support for Proper Shotguns -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[XND] Proper Shotguns</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+				<!-- Riot Breaker -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="CW_RiotBreaker"]/verbs//li[verbClass="Verb_Shoot"]/verbClass</xpath>
+                    <value>
+                        <verbClass>ProperShotguns.Verb_ShootShotgun</verbClass>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

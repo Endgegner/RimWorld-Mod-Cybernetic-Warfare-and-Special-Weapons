@@ -67,10 +67,6 @@
         <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>25</costStuffCount>
     <costList>
       <Plasteel>75</Plasteel>
       <Gold>25</Gold>
@@ -98,7 +94,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>6</power>
+        <power>10</power>
         <cooldownTime>0.25</cooldownTime>
       </li>
       <li>
@@ -106,7 +102,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
+        <power>8</power>
         <cooldownTime>0.25</cooldownTime>
       </li>
       <li>
@@ -155,12 +151,8 @@
         <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>25</costStuffCount>
     <costList>
-      <Plasteel>25</Plasteel>
+      <Plasteel>50</Plasteel>
       <Gold>50</Gold>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
@@ -183,7 +175,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>8</power>
+        <power>10</power>
         <cooldownTime>0.25</cooldownTime>
       </li>
       <li>
@@ -191,7 +183,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>6</power>
+        <power>14</power>
         <cooldownTime>0.25</cooldownTime>
         <armorPenetration>0.50</armorPenetration>
       </li>
@@ -200,7 +192,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>6</power>
+        <power>10</power>
         <cooldownTime>0.25</cooldownTime>
       </li>
       <li>
@@ -208,7 +200,7 @@
           <capacities>
             <li>Stab</li>
           </capacities>
-        <power>8</power>
+        <power>12</power>
         <cooldownTime>0.25</cooldownTime>
       </li>
     </tools>
@@ -249,13 +241,9 @@
         <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>75</costStuffCount>
     <costList>
-      <Plasteel>25</Plasteel>
-      <Gold>50</Gold>
+      <Plasteel>100</Plasteel>
+      <Gold>25</Gold>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <statBases>
@@ -284,7 +272,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>23</power>
+        <power>25</power>
         <armorPenetration>0.50</armorPenetration>
         <cooldownTime>1</cooldownTime>
       </li>
@@ -334,12 +322,8 @@
         <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>75</costStuffCount>
     <costList>
-      <Plasteel>25</Plasteel>
+      <Plasteel>100</Plasteel>
       <Gold>50</Gold>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
@@ -369,7 +353,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>23</power>
+        <power>25</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -377,7 +361,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>33</power>
+        <power>36</power>
         <armorPenetration>0.75</armorPenetration>
         <cooldownTime>1</cooldownTime>
       </li>
@@ -430,7 +414,7 @@
     <graphicData>
       <texPath>Things/WeaponMelee/GunBlade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.3</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
     <generateCommonality>0.05</generateCommonality>
@@ -445,13 +429,9 @@
         <Crafting>11</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>50</costStuffCount>
     <costList>
       <Uranium>50</Uranium>
-      <Plasteel>25</Plasteel>
+      <Plasteel>75</Plasteel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <statBases>
