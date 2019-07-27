@@ -11,7 +11,7 @@
 		<operations>
 			<!-- Prerequisites -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ResearchProjectDef[defName="CW_CyberneticWarcraft"]/prerequisites</xpath>
+				<xpath>/Defs/ResearchProjectDef[defName="CW_CyberneticWarfare"]/prerequisites</xpath>
 				<value>
 					<prerequisites>
 						<li>ANN_CyberneticOrganism</li>

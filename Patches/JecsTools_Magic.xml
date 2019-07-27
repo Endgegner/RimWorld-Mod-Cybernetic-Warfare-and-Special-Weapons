@@ -64,6 +64,12 @@
 					<li>CW_Cleave</li>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="CW_EnergyClaw"]/tools/li[label="blade"]/capacities/li[text()="Scratch"]</xpath>
+				<value>
+					<li>CW_Cleave</li>
+				</value>
+			</li>
 		</operations>
 	</match>
   </Operation>
