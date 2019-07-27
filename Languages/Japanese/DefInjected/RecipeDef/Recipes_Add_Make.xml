@@ -34,7 +34,7 @@
   <Make_CW_GunBlade.jobString>SW ガンブレードを製作中</Make_CW_GunBlade.jobString>
 
 
-  <!-- Recipe Users: TableMachining, FabricationBench -->
+  <!-- Recipe Users: TableMachining, TableMachining -->
 
   <Make_CW_RiotBreaker.label>SW ライオットブレイカーを作る</Make_CW_RiotBreaker.label>
   <Make_CW_RiotBreaker.description>SW ライオットブレイカーを作る。</Make_CW_RiotBreaker.description>
@@ -51,6 +51,9 @@
   <Make_CW_BallisticEnforcer.label>SW BSエンフォーサーを作る</Make_CW_BallisticEnforcer.label>
   <Make_CW_BallisticEnforcer.description>SW BSエンフォーサーを作る。</Make_CW_BallisticEnforcer.description>
   <Make_CW_BallisticEnforcer.jobString>SW BSエンフォーサーを製作中</Make_CW_BallisticEnforcer.jobString>
+
+  
+  <!-- Recipe Users: TableMachining, FabricationBench -->
 
   <Make_CW_Disruptor.label>SW ディスラプターを作る</Make_CW_Disruptor.label>
   <Make_CW_Disruptor.description>SW ディスラプターを作る。</Make_CW_Disruptor.description>
