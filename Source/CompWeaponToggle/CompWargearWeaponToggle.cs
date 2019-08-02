@@ -33,7 +33,7 @@ namespace CyberneticWarfare
 
                 var verbSwitchCommand = new Command_Action()
                 {
-                    defaultLabel = VerbProps[i].label.CapitalizeFirst(),
+                    defaultLabel = VerbProps[i].label.CapitalizeFirst() + (j == activeVerbIndex ? $" ({"CyborgWeaponry.VerbActive".Translate()})" : String.Empty),
                     defaultDesc = "CyborgWeaponry.SwitchFireMode".Translate(VerbProps[i].label),
                     icon = VerbProps[i].defaultProjectile.uiIcon,
                     activateSound = SoundDefOf.Click,
