@@ -4,6 +4,7 @@
   <!-- Mod Support for Combat Extended -->
   <Operation Class="PatchOperationLoadOnDemand.XML">
     <mods>
+      <li>Combat Extended</li>
     </mods>
     <folders>
       <li>CE</li>
@@ -15,6 +16,7 @@
 	<mods>
 		<li>Combat Extended</li>
 	</mods>
+	<match Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationAdd">
