@@ -374,6 +374,9 @@
     <thingCategories Inherit="False">
       <li>CW_CyborgWeaponry</li>
     </thingCategories>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
   </ThingDef>
 
   <!-- Gun Blade -->
@@ -474,7 +477,7 @@
           <capacities>
         <li>Cut</li>
         </capacities>
-        <power>15</power>
+        <power>21</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
@@ -499,7 +502,7 @@
         <range>29.9</range>
         <burstShotCount>7</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <soundCast>CW_BlasterShot</soundCast> <!--Shot_Revolver -->
+        <soundCast>CW_BlasterShot</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>

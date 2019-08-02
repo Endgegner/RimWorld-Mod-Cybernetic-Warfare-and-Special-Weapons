@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>AmmoUltratechChargeCell</defName>
+      <label>ultratech charge cell</label>
+      <parent>AmmoAdvanced</parent>
+      <iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+    </ThingCategoryDef>
+
+	<CombatExtended.AmmoCategoryDef>
+	  <defName>UltratechChargeCell_ElectronOrb</defName>
+	  <label>.cell electron orb</label>
+	  <labelShort>Orb</labelShort>
+	  <description>Unloads in a cloud of eletricity with burn effect on contact.</description>
+	  <advanced>true</advanced>
+	</CombatExtended.AmmoCategoryDef>
+
+	<CombatExtended.AmmoCategoryDef>
+	  <defName>UltratechChargeCell_ChargeEMP</defName>
+	  <label>.cell anti-mechanoid</label>
+	  <labelShort>EMP</labelShort>
+	  <description>Unloads in an Ultra EMP detonation on contact.</description>
+	  <advanced>true</advanced>
+	</CombatExtended.AmmoCategoryDef>
+
+	<CombatExtended.AmmoCategoryDef>
+	  <defName>UltratechChargeCell_StunForce</defName>
+	  <label>.cell stasis</label>
+	  <labelShort>Stun</labelShort>
+	  <description>Unloads in a stasisfield with reduced power output.</description>
+	  <advanced>true</advanced>
+	</CombatExtended.AmmoCategoryDef>
+
+	<CombatExtended.AmmoCategoryDef>
+	  <defName>UltratechChargeCell_NonLethalPower</defName>
+	  <label>.cell non-lethal charge</label>
+	  <labelShort>Non-Lethal</labelShort>
+	  <description>Leads to muscle failure and unconsciousness. Low power level.</description>
+	  <advanced>true</advanced>
+	</CombatExtended.AmmoCategoryDef>
+	
+	<!-- ==================== AmmoSet ========================== -->
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_UltratechChargeCell</defName>
+		<label>ultratech charge cells</label>
+		<ammoTypes>
+			<Ammo_UltratechChargeCell_ElectronOrb>Bullet_UltratechChargeCell_ElectronOrb</Ammo_UltratechChargeCell_ElectronOrb>
+			<Ammo_UltratechChargeCell_ChargeEMP>Bullet_UltratechChargeCell_ChargeEMP</Ammo_UltratechChargeCell_ChargeEMP>
+			<Ammo_UltratechChargeCell_StunForce>Bullet_UltratechChargeCell_StunForce</Ammo_UltratechChargeCell_StunForce>
+			<Ammo_UltratechChargeCell_NonLethalPower>Bullet_UltratechChargeCell_NonLethalPower</Ammo_UltratechChargeCell_NonLethalPower>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+	
+	<!-- ==================== Ammo ========================== -->
+	<ThingDef Class="CombatExtended.AmmoDef" Name="AmmoUltratechChargeCellBase" ParentName="SpacerSmallAmmoBase" Abstract="True">
+		<description>Ultratech charge cells used by advanced cybernetic weapon systems.</description>
+		<statBases>
+			<Mass>0.01</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+    <stackLimit>500</stackLimit>
+		<thingCategories>
+			<li>AmmoUltratechChargeCell</li>
+		</thingCategories>
+	</ThingDef>
+  <!-- electron orb -->
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoUltratechChargeCellBase">
+		<defName>Ammo_UltratechChargeCell_ElectronOrb</defName>
+		<label>.cell electron orb</label>
+		<graphicData>
+			<texPath>Things/Ammo/Charged/Regular</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.89</MarketValue>
+		</statBases>
+		<ammoClass>UltratechChargeCell_ElectronOrb</ammoClass>
+	</ThingDef>
+  <!-- ultra EMP -->
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoUltratechChargeCellBase">
+		<defName>Ammo_UltratechChargeCell_ChargeEMP</defName>
+		<label>.cell ultra EMP</label>
+		<graphicData>
+			<texPath>Things/Ammo/Charged/Regular</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.89</MarketValue>
+		</statBases>
+		<ammoClass>UltratechChargeCell_ChargeEMP</ammoClass>
+	</ThingDef>
+  <!-- stunning force -->
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoUltratechChargeCellBase">
+		<defName>Ammo_UltratechChargeCell_StunForce</defName>
+		<label>.cell stunning force</label>
+		<graphicData>
+			<texPath>Things/Ammo/Charged/Regular</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.89</MarketValue>
+		</statBases>
+		<ammoClass>UltratechChargeCell_StunForce</ammoClass>
+	</ThingDef>
+  <!-- non lethal charge -->
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoUltratechChargeCellBase">
+		<defName>Ammo_UltratechChargeCell_NonLethalPower</defName>
+		<label>.cell non-lethal charge</label>
+		<graphicData>
+			<texPath>Things/Ammo/Charged/Regular</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.89</MarketValue>
+		</statBases>
+		<ammoClass>UltratechChargeCell_NonLethalPower</ammoClass>
+	</ThingDef>
+
+  <!-- ==================== Projectiles ========================== -->
+  <!-- electron orb -->
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
+    <defName>Bullet_UltratechChargeCell_ElectronOrb</defName>
+    <label>electron orb</label>
+    <graphicData>
+      <texPath>Things/Projectile/DisruptorOrb/DisruptorOrbA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>CW_ElectroBurn</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <speed>75</speed>
+      <armorPenetrationBase>0.33</armorPenetrationBase>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <explosionDamage>35</explosionDamage>
+        <explosionDamageDef>CW_ElectroBurn</explosionDamageDef>
+        <explosionRadius>2.9</explosionRadius>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ultra EMP -->
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
+    <defName>Bullet_UltratechChargeCell_ChargeEMP</defName>
+    <label>ultra EMP</label>
+    <graphicData>
+      <texPath>Things/Projectile/UltraEMP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>EMP</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>80</speed>
+      <armorPenetrationBase>0.33</armorPenetrationBase>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <explosionDamage>25</explosionDamage>
+        <explosionDamageDef>EMP</explosionDamageDef>
+        <explosionRadius>2.4</explosionRadius>
+        <soundExplode>Explosion_EMP</soundExplode>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- stunning force -->
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
+    <defName>Bullet_UltratechChargeCell_StunForce</defName>
+    <label>stunning force</label>
+    <graphicData>
+      <texPath>Things/Projectile/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>85</speed>
+      <armorPenetrationBase>0.33</armorPenetrationBase>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <explosionDamage>15</explosionDamage>
+        <explosionDamageDef>Stun</explosionDamageDef>
+        <explosionRadius>1.5</explosionRadius>
+        <soundExplode>CW_Electrocuted</soundExplode>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- non lethal charge -->
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
+    <defName>Bullet_UltratechChargeCell_NonLethalPower</defName>
+    <label>non-lethal charge</label>
+    <graphicData>
+      <texPath>Things/Projectile/NonLethalCharge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>CW_ElectroCharge</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>85</speed>
+      <armorPenetrationBase>0.33</armorPenetrationBase>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <explosionDamage>5</explosionDamage>
+        <explosionDamageDef>CW_ElectroCharge</explosionDamageDef>
+        <explosionRadius>1</explosionRadius>
+        <soundExplode>CW_ContinousSpark</soundExplode>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== Projectiles ========================== -->
+  <!-- electron orb -->
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_UltratechChargeCell_ElectronOrb</defName>
+    <label>make electron orb (E) battery</label>
+    <description>Craft 50 ultratech charge cells for an electron orb generator.</description>
+    <jobString>Making electron orb (E) battery.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shell_EMP</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Shell_EMP</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_UltratechChargeCell_ElectronOrb>50</Ammo_UltratechChargeCell_ElectronOrb>
+    </products>
+    <workAmount>5650</workAmount>
+  </RecipeDef>
+
+  <!-- ultra EMP -->
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_UltratechChargeCell_ChargeEMP</defName>
+    <label>make ultra charge (EMP) battery</label>
+    <description>Craft 50 ultratech EMP cells for an electron orb generator.</description>
+    <jobString>Making ultra charge (EMP) battery.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shell_EMP</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Shell_EMP</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_UltratechChargeCell_ChargeEMP>50</Ammo_UltratechChargeCell_ChargeEMP>
+    </products>
+    <workAmount>5650</workAmount>
+  </RecipeDef>
+
+  <!-- stunning force -->
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_UltratechChargeCell_StunForce</defName>
+    <label>make ultra stasis (Stun) battery</label>
+    <description>Craft 50 ultratech stasis cells for an electron orb generator.</description>
+    <jobString>Making ultra stasis (Stun) battery.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shell_EMP</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Shell_EMP</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_UltratechChargeCell_StunForce>50</Ammo_UltratechChargeCell_StunForce>
+    </products>
+    <workAmount>5650</workAmount>
+  </RecipeDef>
+
+  <!-- non lethal charge -->
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_UltratechChargeCell_NonLethalPower</defName>
+    <label>make non lethal power (CAP) battery</label>
+    <description>Craft 50 ultratech capture cells for an electron orb generator with reduced output.</description>
+    <jobString>Making non lethal power (CAP) battery.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shell_EMP</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Shell_EMP</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_UltratechChargeCell_NonLethalPower>50</Ammo_UltratechChargeCell_NonLethalPower>
+    </products>
+    <workAmount>5650</workAmount>
+  </RecipeDef>
+
+</Defs>

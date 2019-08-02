@@ -102,7 +102,7 @@
       <Beauty>-1</Beauty>
       <EquipDelay>2</EquipDelay>
       <WorkToMake>32500</WorkToMake>
-      <Mass>1.1</Mass>
+      <Mass>5.25</Mass>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.40</AccuracyMedium>
@@ -111,8 +111,8 @@
     </statBases>
     <costList>
       <Plasteel>25</Plasteel>
-      <Uranium>25</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
+      <Uranium>75</Uranium>
+      <ComponentSpacer>8</ComponentSpacer>
     </costList>
     <weaponTags Inherit="False">
       <li>SpacerGun</li>
@@ -161,7 +161,7 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
       <li Class="CyberneticWarfare.VerbPropertiesCW">
-        <label>Non Lethal Charge</label>
+        <label>Non-Lethal Charge</label>
         <verbClass>CyberneticWarfare.Verb_ShootCW</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_NonLethalCharge</defaultProjectile>
@@ -191,6 +191,14 @@
           <li>Poke</li>
        </capacities>
         <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>Blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -447,7 +455,7 @@
       <Beauty>-2</Beauty>
       <EquipDelay>3</EquipDelay>
       <WorkToMake>36000</WorkToMake>
-      <Mass>3.8</Mass>
+      <Mass>3</Mass>
       <AccuracyTouch>0.75</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>

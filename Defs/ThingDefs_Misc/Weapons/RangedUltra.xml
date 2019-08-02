@@ -194,7 +194,7 @@
       <Beauty>-1</Beauty>
       <EquipDelay>3</EquipDelay>
       <WorkToMake>37500</WorkToMake>
-      <Mass>5.25</Mass>
+      <Mass>7.25</Mass>
       <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
       <MarketValue>1337</MarketValue>
     </statBases>
@@ -269,7 +269,6 @@
       <damageAmountBase>40</damageAmountBase>
       <armorPenetrationBase>0.50</armorPenetrationBase>
       <explosionRadius>0.3</explosionRadius>
-      <flyOverhead>true</flyOverhead>
       <speed>95</speed>
     </projectile>
   </ThingDef>
@@ -438,7 +437,6 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.05</generateCommonality>
-    <equippedAngleOffset>-25</equippedAngleOffset>
     <techLevel>Ultra</techLevel>
     <recipeMaker>
       <researchPrerequisite>CW_FrameworkWeaponry</researchPrerequisite>
@@ -463,9 +461,13 @@
       <AccuracyLong>0.98</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
+    <equippedStatOffsets>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
+      <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
     <costList>
       <Plasteel>75</Plasteel>
-      <Uranium>50</Uranium>
+      <Uranium>75</Uranium>
       <ComponentSpacer>10</ComponentSpacer>
     </costList>
     <thingSetMakerTags>

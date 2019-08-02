@@ -356,7 +356,7 @@
         <range>52.4</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>Shot_BoltActionRifle</soundCast> <!-- CW_GunFire Shot_AssaultRifle -->
+        <soundCast>Shot_HeavySMG</soundCast> <!-- Shot_BoltActionRifle CW_GunFire Shot_AssaultRifle -->
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
