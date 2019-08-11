@@ -322,7 +322,7 @@
         <Crafting>9</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>TableMachining</li>
+        <li>FabricationBench</li> <!-- TableMachining -->
       </recipeUsers>
     </recipeMaker>
     <statBases>
