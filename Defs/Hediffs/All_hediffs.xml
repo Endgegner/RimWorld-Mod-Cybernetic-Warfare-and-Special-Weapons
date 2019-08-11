@@ -134,8 +134,8 @@
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>
-					<min>30000</min>
-					<max>60000</max>
+					<min>4000</min>
+					<max>40000</max>
 				</disappearsAfterTicks>
 			</li>
 		</comps>
@@ -185,7 +185,7 @@
   <HediffDef>
     <defName>Trunken_hediff_LaserShot</defName>
     <label>laser beam</label>
-    <labelNoun>a Laser wound</labelNoun>
+    <labelNoun>a laser wound</labelNoun>
     <hediffClass>Hediff_Injury</hediffClass>
     <tendable>true</tendable>
     <displayWound>true</displayWound>

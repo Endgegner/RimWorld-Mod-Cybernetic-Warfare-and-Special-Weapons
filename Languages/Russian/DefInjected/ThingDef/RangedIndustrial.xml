@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Riot Breaker -->
+
+  <CW_RiotBreaker.label>подавитель бунта</CW_RiotBreaker.label>
+  <CW_RiotBreaker.description>Энергетическая винтовка модифицированая так, чтобы быть полностью автоматическим дробовиком с магазинным питанием с амортизатором отдачи. Огромный магазин и необычайная мощь на короткой дистанции огня. Производится для обеспечения максимальной безопасноти Планет-тюрем с очень опасными субъектами.</CW_RiotBreaker.description>
+  <CW_RiotBreaker.tools.0.label>приклад</CW_RiotBreaker.tools.0.label>
+  <CW_RiotBreaker.tools.1.label>ствол</CW_RiotBreaker.tools.1.label>
+
+
+  <!-- Ballistic Shredder -->
+
+  <Bullet_BallisticShredder.label>тяжёлый шреддер</Bullet_BallisticShredder.label>
+
+  <CW_BallisticShredder.label>баллистический шреддер</CW_BallisticShredder.label>
+  <CW_BallisticShredder.description>Компактный пулемёт. У него очень короткий радиус действия. Поставляется с большим магазином и обладает малой отдачей благодаря встроенному стабилизатору.</CW_BallisticShredder.description>
+  <CW_BallisticShredder.tools.0.label>рукоятка</CW_BallisticShredder.tools.0.label>
+  <CW_BallisticShredder.tools.1.label>ствол</CW_BallisticShredder.tools.1.label>
+
+
+  <!-- Ballistic Combat Gun -->
+
+  <Bullet_BallisticCombatGun.label>штурмовая патрон</Bullet_BallisticCombatGun.label>
+
+  <CW_BallisticCombatGun.label>баллистическая боевая пушка</CW_BallisticCombatGun.label>
+  <CW_BallisticCombatGun.description>Универсальная газовая штурмовая винтовка для полевого или городского боя. Предназначен для патронов большого калибра. Мощнее, быстрее, и главное - точнее.</CW_BallisticCombatGun.description>
+  <CW_BallisticCombatGun.tools.0.label>приклад</CW_BallisticCombatGun.tools.0.label>
+  <CW_BallisticCombatGun.tools.1.label>ствол</CW_BallisticCombatGun.tools.1.label>
+
+
+  <!-- Ballistic Enforcer -->
+
+  <Bullet_BallisticEnforcer.label>силовой патрон</Bullet_BallisticEnforcer.label>
+
+  <CW_BallisticEnforcer.label>баллистческий энфорсер</CW_BallisticEnforcer.label>
+  <CW_BallisticEnforcer.description>Энергетическая штурмовая винтовка для полевых операций. В эту версию интегрирована вычислительная система, увеличевающая огневую мощь и точность винтовки. Пронизанные энергией снаряды запускаются небольшими очередями, чтобы предотвратить перегрев.</CW_BallisticEnforcer.description>
+  <CW_BallisticEnforcer.tools.0.label>приклад</CW_BallisticEnforcer.tools.0.label>
+  <CW_BallisticEnforcer.tools.1.label>ствол</CW_BallisticEnforcer.tools.1.label>
+
+
+</LanguageData>

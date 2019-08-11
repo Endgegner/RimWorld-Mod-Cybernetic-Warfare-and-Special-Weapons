@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CyborgWeaponry.SwitchFireMode>Переключить режим {0}.</CyborgWeaponry.SwitchFireMode>
+  <CyborgWeaponry.ResearchRequirementNotMet>Вы не завершили все исследования, необходимые для этого режима.</CyborgWeaponry.ResearchRequirementNotMet>
+  <CyborgWeaponry.VerbActive>Активно</CyborgWeaponry.VerbActive>
+
+</LanguageData>

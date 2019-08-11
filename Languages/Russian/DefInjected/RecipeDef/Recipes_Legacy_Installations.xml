@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Energy Fist -->
+
+  <ANN_InstallShocker.label>установить шокер</ANN_InstallShocker.label>
+  <ANN_InstallShocker.description>Установить шоковый модуль.</ANN_InstallShocker.description>
+  <ANN_InstallShocker.jobString>Установить имплант руки.</ANN_InstallShocker.jobString>
+
+
+</LanguageData>

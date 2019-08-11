@@ -181,7 +181,7 @@
     <deathMessage>{0} has been disintegrated.</deathMessage>
     <hediff>Trunken_hediff_LaserShot</hediff>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Slice</impactSoundType> <!-- Electric Bullet -->
+    <impactSoundType>Electric</impactSoundType> <!-- Slice Bullet -->
     <armorCategory>Heat</armorCategory>
   </DamageDef>
 

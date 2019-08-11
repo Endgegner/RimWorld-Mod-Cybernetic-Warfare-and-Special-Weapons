@@ -1121,92 +1121,119 @@
 				</li>
 
 				<!-- PatchOperationMakeGunCECompatible # Ballistic Enforcer -->
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="CW_BallisticEnforcer"]/statBases</xpath>
+		        <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CW_BallisticEnforcer"]</xpath>
 					<value>
-						<SightsEfficiency>0.85</SightsEfficiency>
-						<ShotSpread>0.05</ShotSpread>
-						<SwayFactor>0.16</SwayFactor>
-						<Bulk>5</Bulk>
-					</value>
-				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="CW_BallisticEnforcer"]/weaponTags</xpath>
-					<value>
-						<weaponTags>
-							<li>CE_Sidearm</li>
-							<li>CE_AI_Rifle</li>
-						</weaponTags>
-					</value>
-				</li>
-				<li Class="PatchOperationAttributeSet">
-					<xpath>Defs/ThingDef[defName="CW_BallisticEnforcer"]/verbs/li</xpath>
-					<attribute>Class</attribute>
-					<value>CombatExtended.VerbPropertiesCE</value>
-				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="CW_BallisticEnforcer"]/verbs/li/verbClass</xpath>
-					<value>
-						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
-					</value>
-				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="CW_BallisticEnforcer"]/verbs/li/defaultProjectile</xpath>
-					<value>
-						<defaultProjectile>Ammo_50BMG_FMJ</defaultProjectile>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="CW_BallisticEnforcer"]/comps</xpath>
-					<value>
-						<li Class="CombatExtended.CompProperties_AmmoUser">
-							<magazineSize>15</magazineSize>
-							<reloadTime>1.75</reloadTime>
-							<ammoSet>AmmoSet_50BMG</ammoSet>
-						</li>
-						<li Class="CombatExtended.CompProperties_FireModes">
-							<aimedBurstShotCount>1</aimedBurstShotCount>
-							<aiAimMode>AimedShot</aiAimMode>
-						</li>
-					</value>
-				</li>
-				<!-- Ballistic Enforcer # Tools -->
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="CW_BallisticEnforcer"]/tools</xpath>
-					<value>
-						<tools>
-							<li Class="CombatExtended.ToolCE">
-								<label>grip</label>
-								<capacities>
-									<li>Blunt</li>
-								</capacities>
-								<power>10</power>
-								<cooldownTime>1.9</cooldownTime>
-								<chanceFactor>1.5</chanceFactor>
-								<armorPenetration>0.08</armorPenetration>
-								<linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
-							</li>
-							<li Class="CombatExtended.ToolCE">
-								<label>barrel</label>
-								<capacities>
-									<li>Blunt</li>
-								</capacities>
-								<power>12</power>
-								<cooldownTime>1.9</cooldownTime>
-								<armorPenetration>0.08</armorPenetration>
-								<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
-							</li>
-							<li Class="CombatExtended.ToolCE">
-								<label>muzzle</label>
-								<capacities>
-									<li>Poke</li>
-								</capacities>
-								<power>9</power>
-								<cooldownTime>1.9</cooldownTime>
-								<armorPenetration>0.08</armorPenetration>
-								<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
-							</li>
-						</tools>
+						<ThingDef ParentName="BaseHumanMakeableGun">
+							<defName>CW_BallisticEnforcer</defName>
+							<label>ballistic enforcer</label>
+							<description>An energy assisted assault rifle for field operations. This version is integrated with a computing system to increase its firepower and accuracy. The energy infused projectiles are fired in small bursts to prevent overheating.</description>
+							<graphicData>
+								<texPath>Things/WeaponRanged/BallisticEnforcer</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>1.5</drawSize>
+							</graphicData>
+							<generateCommonality>0.1</generateCommonality>
+							<soundInteract>Interact_Rifle</soundInteract>
+							<techLevel>Industrial</techLevel>
+							<recipeMaker>
+								<researchPrerequisite>CW_Ballistik</researchPrerequisite>
+								<skillRequirements>
+								<Crafting>9</Crafting>
+								</skillRequirements>
+								<recipeUsers Inherit="False">
+								<li>TableMachining</li>
+								</recipeUsers>
+							</recipeMaker>
+							<thingCategories Inherit="False">
+								<li>CW_CyborgWeaponry</li>
+							</thingCategories>
+							<statBases>
+								<WorkToMake>40000</WorkToMake>
+								<SightsEfficiency>0.85</SightsEfficiency>
+								<ShotSpread>0.05</ShotSpread>
+								<SwayFactor>0.16</SwayFactor>
+								<Bulk>5</Bulk>
+								<Mass>3.8</Mass>
+								<MarketValue>900</MarketValue>
+								<Flammability>0.5</Flammability>
+								<DeteriorationRate>0.2</DeteriorationRate>
+								<Beauty>-1</Beauty>
+								<EquipDelay>3</EquipDelay>
+								<RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+							</statBases>
+							<costList>
+								<Steel>50</Steel>
+								<Plasteel>75</Plasteel>
+								<ComponentIndustrial>9</ComponentIndustrial>
+							</costList>
+							<weaponTags Inherit="False">
+								<li>IndustrialGunAdvanced</li>
+								<li>CE_Sidearm</li>
+								<li>CE_AI_Rifle</li>
+							</weaponTags>
+							<verbs>
+								<li Class="CombatExtended.VerbPropertiesCE">
+									<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+									<hasStandardCommand>True</hasStandardCommand>
+									<defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
+									<warmupTime>1.8</warmupTime>
+									<range>39.9</range>
+									<burstShotCount>3</burstShotCount>
+									<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+									<soundCast>Shot_SniperRifle</soundCast>
+									<soundCastTail>GunTail_Medium</soundCastTail>
+									<muzzleFlashScale>9</muzzleFlashScale>
+								</li>
+							</verbs>
+							<comps>
+								<li>
+									<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+								</li>
+								<li Class="CombatExtended.CompProperties_AmmoUser">
+									<magazineSize>15</magazineSize>
+									<reloadTime>1.75</reloadTime>
+									<ammoSet>AmmoSet_50BMG</ammoSet>
+								</li>
+									<li Class="CombatExtended.CompProperties_FireModes">
+									<aimedBurstShotCount>1</aimedBurstShotCount>
+									<aiAimMode>AimedShot</aiAimMode>
+								</li>
+							</comps>
+							<tools>
+								<li Class="CombatExtended.ToolCE">
+									<label>grip</label>
+									<capacities>
+										<li>Blunt</li>
+									</capacities>
+									<power>10</power>
+									<cooldownTime>1.9</cooldownTime>
+									<chanceFactor>1.5</chanceFactor>
+									<armorPenetration>0.08</armorPenetration>
+									<linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+								</li>
+								<li Class="CombatExtended.ToolCE">
+									<label>barrel</label>
+									<capacities>
+										<li>Blunt</li>
+									</capacities>
+									<power>12</power>
+									<cooldownTime>1.9</cooldownTime>
+									<armorPenetration>0.08</armorPenetration>
+									<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+								</li>
+								<li Class="CombatExtended.ToolCE">
+									<label>muzzle</label>
+									<capacities>
+										<li>Poke</li>
+									</capacities>
+									<power>9</power>
+									<cooldownTime>1.9</cooldownTime>
+									<armorPenetration>0.08</armorPenetration>
+									<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+								</li>
+							</tools>
+						</ThingDef>
 					</value>
 				</li>
 

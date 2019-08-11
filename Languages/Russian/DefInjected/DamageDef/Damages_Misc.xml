@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Shocker -->
+
+  <CW_Shock.label>шоковый</CW_Shock.label>
+  <CW_Shock.deathMessage>{0} был избит до смерти.</CW_Shock.deathMessage>
+
+
+  <!-- Disruptor -->
+
+  <CW_ElectroBurn.label>электроудар</CW_ElectroBurn.label>
+  <CW_ElectroBurn.deathMessage>{0} убит электроударом.</CW_ElectroBurn.deathMessage>
+
+  <CW_ElectroCharge.label>электроудар</CW_ElectroCharge.label>
+  <CW_ElectroCharge.deathMessage>{0} убит электроударом.</CW_ElectroCharge.deathMessage>
+
+
+  <!-- Havoc cannon -->
+
+  <CW_HavocBlaze.label>разрушительное пламя</CW_HavocBlaze.label>
+  <CW_HavocBlaze.deathMessage>{0} сгорел заживо.</CW_HavocBlaze.deathMessage>
+
+
+  <!-- Coil Gun -->
+
+  <CW_KineticEnergy.label>кинетическая энергия</CW_KineticEnergy.label>
+  <CW_KineticEnergy.deathMessage>{0} был разорван на мелкие кусочки.</CW_KineticEnergy.deathMessage>
+
+  <CW_LongRodPenetrator.label>пробивающий стержень</CW_LongRodPenetrator.label>
+  <CW_LongRodPenetrator.deathMessage>{0} был уничтожен.</CW_LongRodPenetrator.deathMessage>
+
+
+  <!-- Plasma Gun -->
+
+  <CW_Plasma.label>концентрированная плазма</CW_Plasma.label>
+  <CW_Plasma.deathMessage>{0} был расплавлен.</CW_Plasma.deathMessage>
+
+
+  <!-- Energetic Laser -->
+
+  <CW_LaserImpact.label>лазер</CW_LaserImpact.label>
+  <CW_LaserImpact.deathMessage>{0} был дезинтегрирован.</CW_LaserImpact.deathMessage>
+
+  <CW_LaserHit.label>ожог кожи</CW_LaserHit.label>
+  <CW_LaserHit.deathMessage>{0} сгорел заживо.</CW_LaserHit.deathMessage>
+
+
+</LanguageData>

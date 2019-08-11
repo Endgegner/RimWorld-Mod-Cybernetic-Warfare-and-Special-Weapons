@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Electro -->
+
+  <Trunken_hediff_Shocker.label>Шокер</Trunken_hediff_Shocker.label>
+  <Trunken_hediff_Shocker.comps.0.tools.0.label>Апперкот</Trunken_hediff_Shocker.comps.0.tools.0.label>
+  <Trunken_hediff_Shocker.comps.0.tools.1.label>Шокер</Trunken_hediff_Shocker.comps.0.tools.1.label>
+  <Trunken_hediff_Shocker.comps.0.tools.2.label>Удар</Trunken_hediff_Shocker.comps.0.tools.2.label>
+  <Trunken_hediff_Shocker.labelNoun>шоковый модуль</Trunken_hediff_Shocker.labelNoun>
+
+  <Trunken_hediff_KnockOut.label>нокаут</Trunken_hediff_KnockOut.label>
+  <Trunken_hediff_KnockOut.stages.0.label>незначительный</Trunken_hediff_KnockOut.stages.0.label>
+  <Trunken_hediff_KnockOut.stages.1.label>ошеломляющий</Trunken_hediff_KnockOut.stages.1.label>
+  <Trunken_hediff_KnockOut.stages.2.label>потрясённый</Trunken_hediff_KnockOut.stages.2.label>
+  <Trunken_hediff_KnockOut.stages.3.label>звёздочки</Trunken_hediff_KnockOut.stages.3.label>
+  <Trunken_hediff_KnockOut.stages.4.label>бесспамятный</Trunken_hediff_KnockOut.stages.4.label>
+  <Trunken_hediff_KnockOut.labelNoun>потеря сознания</Trunken_hediff_KnockOut.labelNoun>
+
+  <Trunken_hediff_Electrocuted.label>удар током</Trunken_hediff_Electrocuted.label>
+  <Trunken_hediff_Electrocuted.labelNoun>электрофицирован</Trunken_hediff_Electrocuted.labelNoun>
+
+
+  <!-- Energetic -->
+
+  <Trunken_hediff_PlasmaBurn.label>плазменный ожёг</Trunken_hediff_PlasmaBurn.label>
+  <Trunken_hediff_PlasmaBurn.comps.0.labelTendedWell>перевязанный</Trunken_hediff_PlasmaBurn.comps.0.labelTendedWell>
+  <Trunken_hediff_PlasmaBurn.comps.0.labelTendedWellInner>зашитый</Trunken_hediff_PlasmaBurn.comps.0.labelTendedWellInner>
+  <Trunken_hediff_PlasmaBurn.comps.0.labelSolidTendedWell>установленный</Trunken_hediff_PlasmaBurn.comps.0.labelSolidTendedWell>
+  <Trunken_hediff_PlasmaBurn.injuryProps.destroyedLabel>Сгорел заживо</Trunken_hediff_PlasmaBurn.injuryProps.destroyedLabel>
+  <Trunken_hediff_PlasmaBurn.injuryProps.destroyedOutLabel>Сгорел заживо</Trunken_hediff_PlasmaBurn.injuryProps.destroyedOutLabel>
+  <Trunken_hediff_PlasmaBurn.labelNoun>рана от плазмы</Trunken_hediff_PlasmaBurn.labelNoun>
+
+  <Trunken_hediff_LaserShot.label>лазерный луч</Trunken_hediff_LaserShot.label>
+  <Trunken_hediff_LaserShot.comps.0.labelTendedWell>перевязанный</Trunken_hediff_LaserShot.comps.0.labelTendedWell>
+  <Trunken_hediff_LaserShot.comps.0.labelTendedWellInner>зашитый</Trunken_hediff_LaserShot.comps.0.labelTendedWellInner>
+  <Trunken_hediff_LaserShot.comps.0.labelSolidTendedWell>установленный</Trunken_hediff_LaserShot.comps.0.labelSolidTendedWell>
+  <Trunken_hediff_LaserShot.injuryProps.destroyedLabel>Испарённый</Trunken_hediff_LaserShot.injuryProps.destroyedLabel>
+  <Trunken_hediff_LaserShot.injuryProps.destroyedOutLabel>Испраённый</Trunken_hediff_LaserShot.injuryProps.destroyedOutLabel>
+  <Trunken_hediff_LaserShot.labelNoun>рана от лазера</Trunken_hediff_LaserShot.labelNoun>
+
+
+</LanguageData>

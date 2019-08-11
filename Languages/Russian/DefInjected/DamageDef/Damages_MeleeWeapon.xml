@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Power Fist -->
+
+  <BluntKnockback.label>тупой</BluntKnockback.label>
+  <BluntKnockback.deathMessage>{0} был забит до смерти.</BluntKnockback.deathMessage>
+
+
+</LanguageData>

@@ -435,7 +435,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>CW_ReflectorSight</soundInteract>
     <generateCommonality>0.05</generateCommonality>
     <techLevel>Ultra</techLevel>
     <recipeMaker>
@@ -474,7 +474,7 @@
       <li>RewardSpecial</li>
     </thingSetMakerTags>
     <weaponTags Inherit="False">
-      <li>SniperRifle</li>
+      <li>SpacerGun</li>
     </weaponTags>
     <verbs>
       <li>

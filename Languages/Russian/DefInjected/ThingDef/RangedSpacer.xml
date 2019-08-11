@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Disruptor -->
+
+  <Bullet_DisruptorOrb.label>электронная сфера</Bullet_DisruptorOrb.label>
+  <Bullet_UltraEMP.label>ультра ЭМИ</Bullet_UltraEMP.label>
+  <Bullet_StunningForce.label>оглушающая Сила</Bullet_StunningForce.label>
+  <Bullet_NonLethalCharge.label>не смертельный заряд</Bullet_NonLethalCharge.label>
+
+  <CW_Disruptor.label>Разрушитель</CW_Disruptor.label>
+  <CW_Disruptor.description>Тяжелый пистолет с генератором создающим электронные сферы, разрушающие одиночные цели. Регулируемая система питания изначально была разработана для нелетального действия и оглушения любого гуманоида одним выстрелом. Стандартное надзорное оборудование на Планетах-тюрьмах.\n\nЭта обновленная версия имеет доступ к четырем различным режимам огня.</CW_Disruptor.description>
+  <CW_Disruptor.tools.0.label>рукоятка</CW_Disruptor.tools.0.label>
+  <CW_Disruptor.tools.1.label>ствол</CW_Disruptor.tools.1.label>
+  <CW_Disruptor.verbs.0.label>Электронная Сфера</CW_Disruptor.verbs.0.label>
+  <CW_Disruptor.verbs.1.label>Ультра ЭМИ</CW_Disruptor.verbs.1.label>
+  <CW_Disruptor.verbs.2.label>Оглушающая Сила</CW_Disruptor.verbs.2.label>
+  <CW_Disruptor.verbs.3.label>Не смертельный заряд</CW_Disruptor.verbs.3.label>
+
+
+  <!-- Napalm Blaster -->
+
+  <Bullet_NapalmFlame.label>море пламени</Bullet_NapalmFlame.label>
+  <Bullet_NapalmBlast.label>концентрированный напалм</Bullet_NapalmBlast.label>
+  <Bullet_NapalmWave.label>концентрированный напалм</Bullet_NapalmWave.label>
+
+  <CW_NapalmBlaster.label>напалмовый бластер</CW_NapalmBlaster.label>
+  <CW_NapalmBlaster.description>Тяжелый огнемет с напалмом. Это механическое зажигательное устройство было разработано, чтобы созданния длинного, управляемого потока жидкого огня.\n\nУровень нагрева может быть удобно отрегулирован встроенным контроллером пиромантии.</CW_NapalmBlaster.description>
+  <CW_NapalmBlaster.tools.0.label>приклад</CW_NapalmBlaster.tools.0.label>
+  <CW_NapalmBlaster.tools.1.label>ствол</CW_NapalmBlaster.tools.1.label>
+  <CW_NapalmBlaster.verbs.0.label>Фаренгейт</CW_NapalmBlaster.verbs.0.label>
+  <CW_NapalmBlaster.verbs.1.label>Адский</CW_NapalmBlaster.verbs.1.label>
+  <CW_NapalmBlaster.verbs.2.label>Пекло</CW_NapalmBlaster.verbs.2.label>
+
+
+  <!-- Dual Eraser -->
+
+  <Bullet_DualEraser.label>двойная пуля</Bullet_DualEraser.label>
+
+  <CW_DualEraser.label>двойной стиратель</CW_DualEraser.label>
+  <CW_DualEraser.description>Пара скорострельных пистолетов-пулеметов с огромными магазинами для двойного оружия. Огромная огневая мощь, такая как мульти выстрел, достигается за счет низкой точности. Можно найти на Урбанистических мирах с повышенной криминальной активностью, где присутствуют узкие переулки. Может быть установлен на кибернетику для более быстрой перезагрузки близких целей.\n\nСделано для Акимбо.</CW_DualEraser.description>
+  <CW_DualEraser.tools.0.label>рукоятка</CW_DualEraser.tools.0.label>
+  <CW_DualEraser.tools.1.label>Ствол</CW_DualEraser.tools.1.label>
+  <CW_DualEraser.verbs.0.label>Мульти Выстрел</CW_DualEraser.verbs.0.label>
+  <CW_DualEraser.verbs.1.label>Быстрый огонь</CW_DualEraser.verbs.1.label>
+
+
+  <!-- Accelerator -->
+
+  <Bullet_Accelerator.label>сингулярность</Bullet_Accelerator.label>
+
+  <CW_Accelerator.label>акселератор</CW_Accelerator.label>
+  <CW_Accelerator.description>Тяжелая система кибернетического оружия. Внутренние катушки этого монструма включаются и выключаются в точно синхронизированной последовательности, что приводит к быстрому ускорению гибридных снарядов вдоль ствола с помощью магнитных сил. Меняет местами боеприпасы при переключении.</CW_Accelerator.description>
+  <CW_Accelerator.tools.0.label>приклад</CW_Accelerator.tools.0.label>
+  <CW_Accelerator.tools.1.label>ствол</CW_Accelerator.tools.1.label>
+  <CW_Accelerator.verbs.0.label>Сингулярность</CW_Accelerator.verbs.0.label>
+  <CW_Accelerator.verbs.1.label>Заряженный</CW_Accelerator.verbs.1.label>
+  <CW_Accelerator.verbs.2.label>Двойная Выдача</CW_Accelerator.verbs.2.label>
+
+
+</LanguageData>

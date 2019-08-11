@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Plasma Gun -->
+
+  <Bullet_PlasmaBlast.label>Плазменный Взрыв</Bullet_PlasmaBlast.label>
+  <Bullet_PlasmaBurst.label>Плазменный Брэнд</Bullet_PlasmaBurst.label>
+
+  <CW_PlasmaGun.label>Плазменная пушка</CW_PlasmaGun.label>
+  <CW_PlasmaGun.description>Тяжелая система кибернетического оружия. Катушки этого монструма включаются и выключаются в точно синхронизированной последовательности, что приводит к быстрому ускорению микровзрывных снарядов вдоль ствола с помощью магнитных сил. Предназначен для уничтожения легких транспортных средств и самолетов с превосходящей огневой мощью.</CW_PlasmaGun.description>
+  <CW_PlasmaGun.tools.0.label>приклад</CW_PlasmaGun.tools.0.label>
+  <CW_PlasmaGun.tools.1.label>ствол</CW_PlasmaGun.tools.1.label>
+  <CW_PlasmaGun.verbs.0.label>Плавильный</CW_PlasmaGun.verbs.0.label>
+  <CW_PlasmaGun.verbs.1.label>Бластер</CW_PlasmaGun.verbs.1.label>
+
+
+  <!-- Havoc Launcher -->
+
+  <Bullet_HavocGrenadeLauncher.label>квантовый болт</Bullet_HavocGrenadeLauncher.label>
+
+  <CW_HavocLauncher.label>опустошающая пусковая установка</CW_HavocLauncher.label>
+  <CW_HavocLauncher.description>Широкоствольная многоцелевая установка, собранная некоторыми киберпанками для уличных войн против концерна. Чертёж быстро попал в руки некоторых корпораций, которые в конечном итоге использовали реплику против своих изобретателей ... в хорошо обученных и оплачиваемых силах безопасности. Снаряды детонируют при ударе, оставляя небольшое ядовитое облако позади, известное как "опустошение". Эта тяжелая форма токсичности разрушает органику за считанные секунды.\n\nИмя сохранилось до сих пор.</CW_HavocLauncher.description>
+  <CW_HavocLauncher.tools.0.label>приклад</CW_HavocLauncher.tools.0.label>
+  <CW_HavocLauncher.tools.1.label>ствол</CW_HavocLauncher.tools.1.label>
+
+
+  <!-- Coil Gun -->
+
+  <Bullet_FerromagneticEraser.label>феромагнитный стиратель</Bullet_FerromagneticEraser.label>
+  <Bullet_EnergyCarrier.label>энергоноситель</Bullet_EnergyCarrier.label>
+
+  <CW_CoilGun.label>гаусс-пушка</CW_CoilGun.label>
+  <CW_CoilGun.description>Ускоритель тяжелого снаряда, состоящий из одной катушки, используемой в качестве электромагнита в конфигурации линейного двигателя, который ускоряет ферромагнитный или проводящий снаряд до высокой скорости, что приводит к несравненному пробитию брони. Предназначен для уничтожения легких транспортных средств и самолетов с превосходящей огневой мощью.</CW_CoilGun.description>
+  <CW_CoilGun.tools.0.label>stock</CW_CoilGun.tools.0.label>
+  <CW_CoilGun.tools.1.label>barrel</CW_CoilGun.tools.1.label>
+  <CW_CoilGun.verbs.0.label>Tank Destroyer</CW_CoilGun.verbs.0.label>
+  <CW_CoilGun.verbs.1.label>Annihilation</CW_CoilGun.verbs.1.label>
+
+
+  <!-- Recon Bolter -->
+
+  <Bullet_ReconBolter.label>Энергетический Луч</Bullet_ReconBolter.label>
+
+  <CW_ReconBolter.label>разведовательный болтер</CW_ReconBolter.label>
+  <CW_ReconBolter.description>Тяжелый энергетический болтер, разработанный для кибернетической войны. Поставляется с сенсорной системой захвата цели и может быть подключена контроллерами, что улучшает зрение и точность пользователя. Он обладает исключительно большой дальнобойностью, способен расплавлять тяжелую броню и мгновенно испарять плоть.</CW_ReconBolter.description>
+  <CW_ReconBolter.tools.0.label>приклад</CW_ReconBolter.tools.0.label>
+  <CW_ReconBolter.tools.1.label>ствол</CW_ReconBolter.tools.1.label>
+
+
+</LanguageData>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Shocker -->
+
+  <ANN_Shocker.label>шокер</ANN_Shocker.label>
+  <ANN_Shocker.description>Боевой имплант руки, состоящий из круглого шокера внутри ладони и титановой металлической пластины вокруг костяшек пальцев. Электрический импульс активируется при подгибании четырех пальцев и оттягивании большого пальца. Запитывается от системы эергоснабжения носителя.</ANN_Shocker.description>
+
+
+  <!-- Power Fist -->
+
+  <CW_PowerFist.label>силовой кулак</CW_PowerFist.label>
+  <CW_PowerFist.description>Силовой кулак - массивная механизированная перчатка, прикрепленная к предплечью для гидравлических толчков и ударов. Он ужасен в бою, его мощные сервоприводы позволяют крушить черепа с такой же лёгкостью, как обычная рука может разбить яйцо. Это прототипное расширение было создано в скрытой высокотехнологичной лаборатории. Хотя он был разработан в имперские времена, их независимое государство сохранилось до сих пор.\n\nУсиливает способность солдат открывать двери и создавать проходы там, где они необходимы. Предоставляет откат и механический удар.\n\n&lt;i&gt;Только смерть освобождает от долга. Даже человек, у которого ничего нет, все еще может предложить свою жизнь. Как Император защищает, так и мы должны. Слова "мир" нет в моем лексиконе.&lt;/i&gt;</CW_PowerFist.description>
+  <CW_PowerFist.tools.0.label>Зуботычина</CW_PowerFist.tools.0.label>
+  <CW_PowerFist.tools.1.label>Дробление</CW_PowerFist.tools.1.label>
+  <CW_PowerFist.tools.2.label>Отбрасываниеk</CW_PowerFist.tools.2.label>
+
+
+  <!-- Energy Claws -->
+
+  <CW_EnergyClaw.label>энергетическая клешня</CW_EnergyClaw.label>
+  <CW_EnergyClaw.description>Массивная механизированная перчатка, прикрепленная к предплечью с выдвижными когтями. Система вооружения управляет улучшенным сервоприводом для придания гидравлической мощности в ближнем бою. Способно поражать несколько целей и проходит сквозь металл, как горячий нож сквозь масло.\n\nЭнергетическая клешня издревле является фаворитным инструментом искоренения врагов у космодесантников. Храбрейшие из них прорывались сквозь броню танков и мехов, чтобы уничтожить экипаж изнутри.</CW_EnergyClaw.description>
+  <CW_EnergyClaw.tools.0.label>энергетический разрыв</CW_EnergyClaw.tools.0.label>
+  <CW_EnergyClaw.tools.1.label>клинок</CW_EnergyClaw.tools.1.label>
+  <CW_EnergyClaw.tools.2.label>клешня</CW_EnergyClaw.tools.2.label>
+  <CW_EnergyClaw.tools.3.label>удар в сторону</CW_EnergyClaw.tools.3.label>
+
+
+  <!-- Energy Sword -->
+
+  <CW_EnergySword.label>энергетический меч</CW_EnergySword.label>
+  <CW_EnergySword.description>Меч вибрирующий от переполняющей мощи, разряжается при рубящих и колючих ударах. Сделано для рук космодесантников.</CW_EnergySword.description>
+  <CW_EnergySword.tools.0.label>рукоять</CW_EnergySword.tools.0.label>
+  <CW_EnergySword.tools.1.label>острие</CW_EnergySword.tools.1.label>
+  <CW_EnergySword.tools.2.label>кромка</CW_EnergySword.tools.2.label>
+
+
+  <!-- Chain Sword -->
+
+  <CW_ChainSword.label>цепной меч</CW_ChainSword.label>
+  <CW_ChainSword.description>Свирепый меч с мощным сервоприводом в рукоятке. Его кормка покрыта цепной пилой с алмазно-острыми зубцами. Этот прототип был доставлен космическими десантниками для уничтожения танков в бою один на один. Он наносит большой урон, но с ним трудно управляться.</CW_ChainSword.description>
+  <CW_ChainSword.tools.0.label>рукоять</CW_ChainSword.tools.0.label>
+  <CW_ChainSword.tools.1.label>острие</CW_ChainSword.tools.1.label>
+  <CW_ChainSword.tools.2.label>кромка</CW_ChainSword.tools.2.label>
+
+
+  <!-- Gun Blade -->
+
+  <CW_Gunslinger.label>импульс</CW_Gunslinger.label>
+  <CW_Pulse.label>импульс</CW_Pulse.label>
+
+  <CW_GunBlade.label>ганблейд</CW_GunBlade.label>
+  <CW_GunBlade.description>Эргономичный пистолет с удобным удлиненым лезвием. Эта попытка противопоставить отсутствие боевых возможностей в ближнем бою для своего типа оружия, основанная на старой оруженой конструкции известного мастера-оружейника.</CW_GunBlade.description>
+  <CW_GunBlade.tools.0.label>рукоять</CW_GunBlade.tools.0.label>
+  <CW_GunBlade.tools.1.label>острие</CW_GunBlade.tools.1.label>
+  <CW_GunBlade.tools.2.label>лезвие</CW_GunBlade.tools.2.label>
+  <CW_GunBlade.verbs.0.label>Стрелок</CW_GunBlade.verbs.0.label>
+  <CW_GunBlade.verbs.1.label>Импульс</CW_GunBlade.verbs.1.label>
+
+
+</LanguageData>

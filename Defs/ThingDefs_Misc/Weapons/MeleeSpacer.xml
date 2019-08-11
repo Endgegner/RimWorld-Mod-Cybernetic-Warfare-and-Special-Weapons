@@ -243,7 +243,7 @@
     </recipeMaker>
     <costList>
       <Plasteel>100</Plasteel>
-      <Gold>25</Gold>
+      <Gold>50</Gold>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <statBases>

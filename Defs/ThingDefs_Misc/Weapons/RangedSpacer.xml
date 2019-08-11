@@ -76,7 +76,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CW_Disruptor</defName>
-    <label>Disruptor</label>
+    <label>disruptor</label>
     <description>A heavy handgun with an electron orb generator to disrupt single targets. The adjustable power system was originally made for non lethal strikes and knocks out any humanoid on a single hit. Standard overseer equipment on Jailplanets.\n\nThis upgraded version has access to four different fire modes.</description>
     <graphicData>
       <texPath>Things/WeaponRanged/Disruptor</texPath>
@@ -96,7 +96,7 @@
       </recipeUsers>
     </recipeMaker>
     <statBases>
-      <MarketValue>1450</MarketValue>
+      <MarketValue>1850</MarketValue>
       <Flammability>0.5</Flammability>
       <DeteriorationRate>0.2</DeteriorationRate>
       <Beauty>-1</Beauty>

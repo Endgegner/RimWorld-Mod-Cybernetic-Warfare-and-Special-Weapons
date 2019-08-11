@@ -153,7 +153,7 @@
         <warmupTime>0.9</warmupTime>
         <range>29.9</range>
         <burstShotCount>20</burstShotCount>
-        <soundCast>CW_BallisticBurst</soundCast> <!-- Shot_HeavySMG -->
+        <soundCast>Shot_HeavySMG</soundCast> <!-- CW_BallisticBurst -->
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -298,7 +298,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
+      <damageAmountBase>18</damageAmountBase>
       <armorPenetrationBase>0.1</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
@@ -307,7 +307,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CW_BallisticEnforcer</defName>
     <label>ballistic enforcer</label>
-    <description>An energy assisted assault rifle for field operations. This version is integrated with a computing system to increase its firepower and accuracy. The energy infused projectiles are fired in small bursts to prevent overheating.</description>
+    <description>An energy assisted assault rifle for field operations. This version is integrated with a computing system to increase its firepower and accuracy. The infused projectiles are fired in small bursts to prevent overheating.</description>
     <graphicData>
       <texPath>Things/WeaponRanged/BallisticEnforcer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -335,8 +335,8 @@
       <Mass>3.5</Mass>
       <AccuracyTouch>0.62</AccuracyTouch>
       <AccuracyShort>0.78</AccuracyShort>
-      <AccuracyMedium>0.89</AccuracyMedium>
-      <AccuracyLong>0.91</AccuracyLong>
+      <AccuracyMedium>0.87</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -352,11 +352,11 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BallisticEnforcer</defaultProjectile>
-        <warmupTime>0.7</warmupTime>
-        <range>52.4</range>
+        <warmupTime>1.8</warmupTime>
+        <range>39.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>Shot_HeavySMG</soundCast> <!-- Shot_BoltActionRifle CW_GunFire Shot_AssaultRifle -->
+        <soundCast>Shot_SniperRifle</soundCast> <!-- Shot_BoltActionRifle CW_GunFire Shot_AssaultRifle -->
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
