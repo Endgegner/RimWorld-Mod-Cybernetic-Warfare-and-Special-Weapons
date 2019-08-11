@@ -9,8 +9,12 @@
 		<baseCost>3000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>GunTurrets</li>
+			<li>Fabrication</li>
 		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<researchViewX>8</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>

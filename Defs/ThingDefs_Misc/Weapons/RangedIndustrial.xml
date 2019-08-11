@@ -322,7 +322,7 @@
         <Crafting>9</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>FabricationBench</li> <!-- TableMachining -->
+        <li>TableMachining</li> <!-- FabricationBench -->
       </recipeUsers>
     </recipeMaker>
     <statBases>
@@ -353,7 +353,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BallisticEnforcer</defaultProjectile>
         <warmupTime>1.8</warmupTime>
-        <range>39.9</range>
+        <range>52.4</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
         <soundCast>Shot_SniperRifle</soundCast> <!-- Shot_BoltActionRifle CW_GunFire Shot_AssaultRifle -->
