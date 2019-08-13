@@ -5,4 +5,7 @@
     <CyborgWeaponry.ResearchRequirementNotMet>You haven't finished all of the research required for this mode.</CyborgWeaponry.ResearchRequirementNotMet>
     <CyborgWeaponry.VerbActive>active</CyborgWeaponry.VerbActive>
 
+	<ESP_StatsReport_EquipmentRequirementsNotMet>Requirements not met ({0})</ESP_StatsReport_EquipmentRequirementsNotMet>
+	<ESP_MissingCyberware>Proper cyberware or servo-motors missing</ESP_MissingCyberware>
+
 </LanguageData>

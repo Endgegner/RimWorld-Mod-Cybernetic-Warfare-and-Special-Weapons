@@ -414,7 +414,7 @@
       <li Class="EQEnergyWeapons.CompProperties_DefinitionDMG">
         <compClass>EQEnergyWeapons.CompInitializeDamage</compClass>
         <damageDef>CW_LaserHit</damageDef>
-        <damageAmount>5</damageAmount>
+        <damageAmount>25</damageAmount>
         <chanceToProc>0.5</chanceToProc>
       </li>
     </comps>

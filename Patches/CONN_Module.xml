@@ -47,4 +47,100 @@
 	</nomatch>
   </Operation>
 
+  <!-- Module # Weapon Systems of CONN -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Cybernetic Organism and Neural Network</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Efficiency StatDefs -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="MoveSpeed"]/parts</xpath>
+				<value>
+					<li Class="ExtraStatParts.StatPart_EquipmentRequirementModifiers" />
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="RangedWeapon_Cooldown"]</xpath>
+				<value>
+					<parts>
+						<li Class="ExtraStatParts.StatPart_EquipmentRequirementModifiers" />
+					</parts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="RangedWeapon_DamageMultiplier"]/parts</xpath>
+				<value>
+					<li Class="ExtraStatParts.StatPart_EquipmentRequirementModifiers" />
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="AimingDelayFactor"]</xpath>
+				<value>
+					<parts>
+					<li Class="ExtraStatParts.StatPart_EquipmentRequirementModifiers" />
+					</parts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="AccuracyShort"]</xpath>
+				<value>
+					<parts>
+					<li Class="ExtraStatParts.StatPart_EquipmentRequirementModifiers" />
+					</parts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="AccuracyMedium"]</xpath>
+				<value>
+					<parts>
+					<li Class="ExtraStatParts.StatPart_EquipmentRequirementModifiers" />
+					</parts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="AccuracyLong"]</xpath>
+				<value>
+					<parts>
+					<li Class="ExtraStatParts.StatPart_EquipmentRequirementModifiers" />
+					</parts>
+				</value>
+			</li>
+			<!-- Extra Stat Parts Assembly # Special Thanks to ChJess -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CW_RiotBreaker" or defName="CW_BallisticShredder" or defName="CW_BallisticCombatGun" or defName="CW_BallisticEnforcer" or defName="CW_DualEraser" or defName="CW_Disruptor" or defName="CW_PlasmaGun" or defName="CW_HavocLauncher" or defName="CW_CoilGun" or defName="CW_Accelerator" or defName="CW_ReconBolter"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="ExtraStatParts.EquipmentRequirementModifiers">
+							<requirementNotMetReasonKey>ESP_MissingCyberware</requirementNotMetReasonKey>
+							<requireAnyOfTheseHediffs>
+								<li>BionicArm</li>
+								<li>ArchotechArm</li>
+								<li>Trunken_hediff_PowerArms</li>
+								<li>Trunken_hediff_EnergyCore</li>
+								<li>Trunken_hediff_EnergyLink</li>
+								<li>Trunken_hediff_Musclewire</li>
+							</requireAnyOfTheseHediffs>
+							<requireAnyOfTheseApparels>
+								<li>Apparel_PowerArmor</li>
+							</requireAnyOfTheseApparels>
+							<modifyTheseStats>
+								<MoveSpeed>0.75</MoveSpeed>
+								<RangedWeapon_DamageMultiplier>0.5</RangedWeapon_DamageMultiplier>
+								<AimingDelayFactor>1.5</AimingDelayFactor>
+								<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+								<AccuracyShort>0.75</AccuracyShort>
+								<AccuracyMedium>0.5</AccuracyMedium>
+								<AccuracyLong>0.5</AccuracyLong>
+							</modifyTheseStats>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+		</operations>
+	</match>
+  </Operation>
+
 </Patch>
