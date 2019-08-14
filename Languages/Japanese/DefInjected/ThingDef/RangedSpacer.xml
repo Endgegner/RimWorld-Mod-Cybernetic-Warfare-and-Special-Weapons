@@ -12,10 +12,11 @@
   <CW_Disruptor.description>単一の目標を破壊するための電荷射撃発生器を備えた強力な拳銃です。この調整可能なパワーシステムは、もともと非殺傷攻撃用に設計されたもので、1発の命中であらゆる人型ロボットを動作停止します。囚人惑星の標準的な刑務官装備です。\n\nこの改良版には4種類の異なった射撃モードがあります。</CW_Disruptor.description>
   <CW_Disruptor.tools.grip.label>グリップ</CW_Disruptor.tools.grip.label>
   <CW_Disruptor.tools.barrel.label>バレル</CW_Disruptor.tools.barrel.label>
+  <CW_Disruptor.tools.Blade.label>ブレード</CW_Disruptor.tools.Blade.label>
   <CW_Disruptor.verbs.Electron_Orb.label>電荷オーブ</CW_Disruptor.verbs.Electron_Orb.label>
   <CW_Disruptor.verbs.Ultra_EMP.label>超EMPモード</CW_Disruptor.verbs.Ultra_EMP.label>
   <CW_Disruptor.verbs.Stunning_Force.label>強制スタン</CW_Disruptor.verbs.Stunning_Force.label>
-  <CW_Disruptor.verbs.Non_Lethal_Charge.label>非殺傷モード</CW_Disruptor.verbs.Non_Lethal_Charge.label>
+  <CW_Disruptor.verbs.NonLethal_Charge.label>非殺傷モード</CW_Disruptor.verbs.NonLethal_Charge.label>
 
 
   <!-- Napalm Blaster -->

@@ -5,4 +5,7 @@
   <CyborgWeaponry.ResearchRequirementNotMet>このモードに必要なすべての研究が完了していません。</CyborgWeaponry.ResearchRequirementNotMet>
   <CyborgWeaponry.VerbActive>稼働</CyborgWeaponry.VerbActive>
 
+  <ESP_StatsReport_EquipmentRequirementsNotMet>前提条件が満たされていません（{0}）</ESP_StatsReport_EquipmentRequirementsNotMet>
+  <ESP_MissingCyberware>適切なサイボーグ義肢やサーボモーターが有りません</ESP_MissingCyberware>
+
 </LanguageData>

@@ -37,7 +37,7 @@
   <Bullet_BallisticEnforcer.label>エンフォーサー弾</Bullet_BallisticEnforcer.label>
 
   <CW_BallisticEnforcer.label>SW BSエンフォーサー</CW_BallisticEnforcer.label>
-  <CW_BallisticEnforcer.description>野戦用サポートシステムの付いたスマート軍用エネルギーライフルです。この形式は、その火力と命中精度を向上させるために統合データシステムとコンピューターで接続されています。エネルギー式の射出弾は、銃の過熱を防ぐために細かくバーストさせて射撃されます。</CW_BallisticEnforcer.description>
+  <CW_BallisticEnforcer.description>野戦用サポートシステムの付いたスマート軍用エネルギーライフルです。この形式は、その火力と命中精度を向上させるために統合データシステムとコンピューターで接続されています。弾が連射されることで、銃身が過熱するのを防ぐために細かくバースト連射されます。</CW_BallisticEnforcer.description>
   <CW_BallisticEnforcer.tools.stock.label>ストック</CW_BallisticEnforcer.tools.stock.label>
   <CW_BallisticEnforcer.tools.barrel.label>バレル</CW_BallisticEnforcer.tools.barrel.label>
   <CW_BallisticEnforcer.verbs.Verb_Shoot.label>SW BSエンフォーサー</CW_BallisticEnforcer.verbs.Verb_Shoot.label>
