@@ -115,7 +115,7 @@
       <ComponentSpacer>8</ComponentSpacer>
     </costList>
     <weaponTags Inherit="False">
-      <li>SpacerGun</li>
+      <li>UltraGun</li>
     </weaponTags>
     <verbs>
       <li Class="CyberneticWarfare.VerbPropertiesCW">
@@ -471,7 +471,7 @@
       <AimingDelayFactor>-0.10</AimingDelayFactor>
     </equippedStatOffsets>
     <weaponTags Inherit="False">
-      <li>SpacerGun</li>
+      <li>IndustrialGunRedesign</li>
     </weaponTags>
     <verbs>
       <li Class="CyberneticWarfare.VerbPropertiesCW">

@@ -375,7 +375,7 @@
       <li>CW_CyborgWeaponry</li>
     </thingCategories>
     <weaponTags>
-      <li>SpacerGun</li>
+      <li>MeleeSpacer</li>
     </weaponTags>
   </ThingDef>
 
@@ -517,6 +517,9 @@
     <thingCategories Inherit="False">
       <li>CW_CyborgWeaponry</li>
     </thingCategories>
+    <weaponTags Inherit="False">
+      <li>UltraGun</li>
+    </weaponTags>
   </ThingDef>
 
 </Defs>

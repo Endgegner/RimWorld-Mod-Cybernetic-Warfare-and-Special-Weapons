@@ -43,7 +43,7 @@
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
-      <li>IndustrialGunAdvanced</li>
+      <li>IndustrialGunRedesign</li> <!-- IndustrialGunAdvanced -->
     </weaponTags>
     <verbs>
       <li>
@@ -143,7 +143,7 @@
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
-      <li>IndustrialGunAdvanced</li>
+      <li>IndustrialGunRedesign</li>
     </weaponTags>
     <verbs>
       <li>
@@ -243,7 +243,7 @@
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
-      <li>IndustrialGunAdvanced</li>
+      <li>IndustrialGunRedesign</li>
     </weaponTags>
     <verbs>
       <li>
@@ -345,7 +345,7 @@
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
-      <li>IndustrialGunAdvanced</li>
+      <li>IndustrialGunRedesign</li>
     </weaponTags>
     <verbs>
       <li>

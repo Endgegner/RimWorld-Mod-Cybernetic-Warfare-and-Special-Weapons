@@ -474,7 +474,7 @@
       <li>RewardSpecial</li>
     </thingSetMakerTags>
     <weaponTags Inherit="False">
-      <li>SpacerGun</li>
+      <li>UltraGun</li>
     </weaponTags>
     <verbs>
       <li>
