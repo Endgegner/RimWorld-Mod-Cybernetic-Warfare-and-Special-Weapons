@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <version>1.3.0.1</version>
+  <version>1.3.0.5</version>
+  <identifier>CyberneticWarfare</identifier>
+  <loadBefore>
+	<li>LegendarySwords</li>
+	<li>ExpandedProstheticsandOrganEngineering</li>
+  </loadBefore>
+  <loadAfter>
+	<li>CyberneticOrganism</li>
+  </loadAfter>
+  <showCrossPromotions>true</showCrossPromotions>
   <manifestUri></manifestUri>
   <downloadUri></downloadUri>
 </Manifest>
