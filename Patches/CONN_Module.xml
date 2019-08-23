@@ -189,7 +189,7 @@
 								<li>Trunken_hediff_EnergyCore</li>
 								<li>Trunken_hediff_EnergyLink</li>
 								<li>Trunken_hediff_Musclewire</li>
-						 		<li>Trunken_hediff_CombatAI</li>
+						   <!-- <li>Trunken_hediff_CombatAI</li> -->
 							</requireAnyOfTheseHediffs>
 							<requireAnyOfTheseApparels>
 								<li>Apparel_PowerArmor</li>
