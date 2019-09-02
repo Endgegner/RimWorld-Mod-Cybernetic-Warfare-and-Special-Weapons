@@ -298,7 +298,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>15</damageAmountBase>
       <armorPenetrationBase>0.1</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
@@ -355,8 +355,8 @@
         <warmupTime>1.8</warmupTime>
         <range>42.4</range>
         <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>Shot_SniperRifle</soundCast> <!-- Shot_BoltActionRifle CW_GunFire Shot_AssaultRifle -->
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <soundCast>CW_GunFire</soundCast> <!-- Shot_BoltActionRifle Shot_SniperRifle Shot_AssaultRifle -->
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
