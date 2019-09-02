@@ -232,7 +232,7 @@
       <WorkToMake>80000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.55</AccuracyTouch> <!-- 65 -->
-      <AccuracyShort>0.67</AccuracyShort> <!-- 75 -->
+      <AccuracyShort>0.65</AccuracyShort> <!-- 75 -->
       <AccuracyMedium>0.55</AccuracyMedium> <!-- 75 -->
       <AccuracyLong>0.45</AccuracyLong> <!-- 65 -->
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
