@@ -205,7 +205,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CW_BallisticCombatGun</defName>
     <label>ballistic combat gun</label>
-    <description>A general-purpose gas-operated assault rifle for field or urban combat. Designed for large calibre cartridges. The case covers a complex burst engine inside. More power, faster handling, better accuracy. </description>
+    <description>A general-purpose gas-operated assault rifle for field or urban combat. Designed for large calibre cartridges. The case covers a complex burst engine inside. More power, faster handling, better accuracy.</description>
     <graphicData>
       <texPath>Things/WeaponRanged/BallisticCombatGun</texPath>
       <graphicClass>Graphic_Single</graphicClass>

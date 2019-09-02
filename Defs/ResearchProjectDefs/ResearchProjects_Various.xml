@@ -7,7 +7,7 @@
 		<label>Ballistik</label>
 		<description>Unfold the power of superior weapon systems.</description>
 		<baseCost>3000</baseCost>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>Fabrication</li>
 		</prerequisites>
@@ -15,8 +15,8 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>8</researchViewX>
-		<researchViewY>4</researchViewY>
+		<researchViewX>12</researchViewX>
+		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
   <!-- Shadowrunner Cyberpunks -->
