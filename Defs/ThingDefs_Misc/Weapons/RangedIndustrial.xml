@@ -17,7 +17,7 @@
     <recipeMaker>
       <researchPrerequisite>CW_Ballistik</researchPrerequisite>
       <skillRequirements>
-        <Crafting>13</Crafting>
+        <Crafting>11</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
@@ -117,7 +117,7 @@
     <recipeMaker>
       <researchPrerequisite>CW_Ballistik</researchPrerequisite>
       <skillRequirements>
-        <Crafting>14</Crafting>
+        <Crafting>13</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
