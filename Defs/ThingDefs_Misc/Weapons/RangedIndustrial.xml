@@ -11,25 +11,25 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
-    <generateCommonality>0.1</generateCommonality>
+    <generateCommonality>0</generateCommonality>
     <soundInteract>Interact_Shotgun</soundInteract>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <researchPrerequisite>CW_Ballistik</researchPrerequisite>
       <skillRequirements>
-        <Crafting>9</Crafting>
+        <Crafting>13</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>TableMachining</li>
+        <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
     <statBases>
-      <MarketValue>900</MarketValue>
+      <MarketValue>1000</MarketValue>
       <Flammability>0.6</Flammability>
       <DeteriorationRate>0.2</DeteriorationRate>
       <Beauty>-2</Beauty>
       <EquipDelay>3</EquipDelay>
-      <WorkToMake>32500</WorkToMake>
+      <WorkToMake>75000</WorkToMake>
       <Mass>4.5</Mass>
       <AccuracyTouch>0.70</AccuracyTouch>
       <AccuracyShort>0.68</AccuracyShort>
@@ -39,7 +39,7 @@
     </statBases>
     <costList>
       <Steel>75</Steel>
-      <Plasteel>75</Plasteel>
+      <Plasteel>125</Plasteel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
@@ -111,35 +111,35 @@
   	  <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.4</drawSize>
   	</graphicData>
-    <generateCommonality>0.1</generateCommonality>
+    <generateCommonality>0</generateCommonality>
   	<soundInteract>Interact_SMG</soundInteract>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <researchPrerequisite>CW_Ballistik</researchPrerequisite>
       <skillRequirements>
-        <Crafting>9</Crafting>
+        <Crafting>14</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>TableMachining</li>
+        <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
     <statBases>
-      <MarketValue>900</MarketValue>
+      <MarketValue>1000</MarketValue>
       <Flammability>0.4</Flammability>
       <DeteriorationRate>0.2</DeteriorationRate>
       <Beauty>-1</Beauty>
       <EquipDelay>3</EquipDelay>
-      <WorkToMake>32500</WorkToMake>
+      <WorkToMake>75000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.86</AccuracyTouch>
-      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyTouch>0.65</AccuracyTouch> <!-- 86 -->
+      <AccuracyShort>0.57</AccuracyShort> <!-- 78 -->
       <AccuracyMedium>0.35</AccuracyMedium>
       <AccuracyLong>0.32</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>75</Steel>
-      <Plasteel>25</Plasteel>
+      <Plasteel>100</Plasteel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
@@ -205,41 +205,41 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CW_BallisticCombatGun</defName>
     <label>ballistic combat gun</label>
-    <description>A general-purpose gas-operated assault rifle for field or urban combat. Designed for large calibre cartridges. More power, faster handling, better accuracy.</description>
+    <description>A general-purpose gas-operated assault rifle for field or urban combat. Designed for large calibre cartridges. The case covers a complex burst engine inside. More power, faster handling, better accuracy. </description>
     <graphicData>
       <texPath>Things/WeaponRanged/BallisticCombatGun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.4</drawSize>
     </graphicData>
-    <generateCommonality>0.1</generateCommonality>
+    <generateCommonality>0</generateCommonality>
   	<soundInteract>Interact_Rifle</soundInteract>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <researchPrerequisite>CW_Ballistik</researchPrerequisite>
       <skillRequirements>
-        <Crafting>9</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>TableMachining</li>
+        <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
     <statBases>
-      <MarketValue>900</MarketValue>
+      <MarketValue>1000</MarketValue>
       <Flammability>0.5</Flammability>
       <DeteriorationRate>0.2</DeteriorationRate>
       <Beauty>-1</Beauty>
       <EquipDelay>3</EquipDelay>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>80000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.75</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.55</AccuracyTouch> <!-- 65 -->
+      <AccuracyShort>0.67</AccuracyShort> <!-- 75 -->
+      <AccuracyMedium>0.55</AccuracyMedium> <!-- 75 -->
+      <AccuracyLong>0.45</AccuracyLong> <!-- 65 -->
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>75</Steel>
-      <Plasteel>25</Plasteel>
+      <Plasteel>125</Plasteel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
@@ -307,41 +307,41 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CW_BallisticEnforcer</defName>
     <label>ballistic enforcer</label>
-    <description>An energy assisted assault rifle for field operations. This version is integrated with a computing system to increase its firepower and accuracy. The infused projectiles are fired in small bursts to prevent overheating.</description>
+    <description>An energy assisted assault rifle for field operations. This version is integrated with a computing system to increase its firepower and accuracy. The infused projectiles are fired in small bursts to prevent overheating. Usually fabricated by machines and hard to assemble for a human being.</description>
     <graphicData>
       <texPath>Things/WeaponRanged/BallisticEnforcer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
-    <generateCommonality>0.1</generateCommonality>
+    <generateCommonality>0</generateCommonality>
   	<soundInteract>Interact_Rifle</soundInteract>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <researchPrerequisite>CW_Ballistik</researchPrerequisite>
       <skillRequirements>
-        <Crafting>9</Crafting>
+        <Crafting>14</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
-        <li>TableMachining</li> <!-- FabricationBench -->
+        <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
     <statBases>
-      <MarketValue>900</MarketValue>
+      <MarketValue>1000</MarketValue>
       <Flammability>0.5</Flammability>
       <DeteriorationRate>0.2</DeteriorationRate>
       <Beauty>-1</Beauty>
       <EquipDelay>3</EquipDelay>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>80000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.62</AccuracyTouch>
-      <AccuracyShort>0.78</AccuracyShort>
-      <AccuracyMedium>0.87</AccuracyMedium>
-      <AccuracyLong>0.85</AccuracyLong>
-      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.41</AccuracyTouch> <!-- 62 -->
+      <AccuracyShort>0.52</AccuracyShort> <!-- 78 -->
+      <AccuracyMedium>0.65</AccuracyMedium> <!-- 87 -->
+      <AccuracyLong>0.61</AccuracyLong> <!-- 85 -->
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <Plasteel>75</Plasteel>
+      <Plasteel>150</Plasteel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <weaponTags Inherit="False">
